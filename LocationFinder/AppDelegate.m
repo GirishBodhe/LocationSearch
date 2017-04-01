@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import <FTGooglePlacesAPI/FTGooglePlacesAPI.h>
+@import Firebase;
+@import FirebaseAuth;
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -19,9 +21,37 @@
     [FTGooglePlacesAPIService provideAPIKey:@"AIzaSyBz04qPokp14S9zUUVepRFqSjEIHyyQ4IE"];
     //  Optionally enable debug mode
     [FTGooglePlacesAPIService setDebugLoggingEnabled:YES];
+    [FIRApp configure];
+    
+    if ([FIRAuth auth].currentUser) {
+        
+            self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+            
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle: nil];
+            
+            UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"LocationFinderViewController"];
+            
+            
+            self.window.rootViewController = viewController;//making a view to root view
+            [self.window makeKeyAndVisible];
+
+    
+    }else
+    {
+        self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+        
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main_iPhone" bundle: nil];
+        
+        UIViewController *viewController = [storyboard instantiateViewControllerWithIdentifier:@"SignInSignUpViewController"];
+        
+        
+        self.window.rootViewController = viewController;//making a view to root view
+        [self.window makeKeyAndVisible];
+    }
+    
     return YES;
 }
-							
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

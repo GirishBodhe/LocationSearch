@@ -9,7 +9,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AXWireButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FTGooglePlacesAPI.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GTMSessionFetcher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GoogleToolboxForMac.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PRAugmentedReality.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,10 +44,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>TPKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>1ADE7B2751C018FC140EE1552AE04223</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>44F51B213840F89945E525D3370BB0EE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5117AB33219594B4492F01E060D31462</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58E7450DB13C5ECCE92D3C0DF7CF0903</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5EF6503F4B53B5FCECD007E4D257C7C4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +82,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>9D875882B4FF610811C301D1CCDCA039</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C95C45974D77E3E41FE9D2A80E093179</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB45072B101E48FF31FA5853193DFF00</key>
+		<key>DE868725B18AE240E550C5515AE66BC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
