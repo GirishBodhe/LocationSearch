@@ -8,7 +8,13 @@ target 'LocationFinder' do
   # Pods for LocationFinder
   
   pod 'FTGooglePlacesAPI'
-
+  pod 'GooglePlaces'
+  pod 'GooglePlacePicker'
+  pod 'GoogleMaps'
+  pod 'PRAugmentedReality'
+  pod 'AXWireButton'
+  pod 'TPKeyboardAvoiding'
+  
   target 'LocationFinderTests' do
     inherit! :search_paths
     # Pods for testing

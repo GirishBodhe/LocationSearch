@@ -76,6 +76,28 @@ EOM
       ;;
   esac
 }
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"
+  install_resource "GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle"
+  install_resource "GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle"
+  install_resource "PRAugmentedReality/Classes/Graphics/ar_icon.png"
+  install_resource "PRAugmentedReality/Classes/Graphics/ar_overlay.png"
+  install_resource "PRAugmentedReality/Classes/Graphics/ar_overlay@2x.png"
+  install_resource "PRAugmentedReality/Classes/Graphics/Radar.png"
+  install_resource "PRAugmentedReality/Classes/Graphics/RadarMV.png"
+  install_resource "PRAugmentedReality/Classes/AR/ARObject.xib"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle"
+  install_resource "GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle"
+  install_resource "GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle"
+  install_resource "PRAugmentedReality/Classes/Graphics/ar_icon.png"
+  install_resource "PRAugmentedReality/Classes/Graphics/ar_overlay.png"
+  install_resource "PRAugmentedReality/Classes/Graphics/ar_overlay@2x.png"
+  install_resource "PRAugmentedReality/Classes/Graphics/Radar.png"
+  install_resource "PRAugmentedReality/Classes/Graphics/RadarMV.png"
+  install_resource "PRAugmentedReality/Classes/AR/ARObject.xib"
+fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"
 rsync -avr --copy-links --no-relative --exclude '*/.svn/*' --files-from="$RESOURCES_TO_COPY" / "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

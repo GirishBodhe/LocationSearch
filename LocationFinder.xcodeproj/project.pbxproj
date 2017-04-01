@@ -25,6 +25,17 @@
 		4CFC74F2192492C0002146AC /* LocationFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CFC74F1192492C0002146AC /* LocationFinderTests.m */; };
 		4CFC74FC192492E0002146AC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CFC74FB192492E0002146AC /* CoreLocation.framework */; };
 		64F3805B4F07AFB27DF8D572 /* libPods-LocationFinder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CFBEF7C751693A6AAEA502 /* libPods-LocationFinder.a */; };
+		958F6B7A1E89939200249962 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 958F6B791E89939200249962 /* ViewController.m */; };
+		95B0C7E11E8F0A10008BB00F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C7E01E8F0A10008BB00F /* SWRevealViewController.m */; };
+		95B0C7E91E8F1013008BB00F /* Home_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C7E51E8F1013008BB00F /* Home_1.jpg */; };
+		95B0C7EA1E8F1013008BB00F /* Home_Signin_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C7E61E8F1013008BB00F /* Home_Signin_1.jpg */; };
+		95B0C7EB1E8F1013008BB00F /* Home_SignUp_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C7E71E8F1013008BB00F /* Home_SignUp_1.jpg */; };
+		95B0C7EC1E8F1013008BB00F /* Home_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C7E81E8F1013008BB00F /* Home_2.jpg */; };
+		95B0C7EE1E8F196E008BB00F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C7ED1E8F196E008BB00F /* Launch Screen.storyboard */; };
+		95B0C7F01E8F1F9B008BB00F /* Home_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C7EF1E8F1F9B008BB00F /* Home_3.jpg */; };
+		95B0C7F31E8F3159008BB00F /* SignInSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C7F21E8F3159008BB00F /* SignInSignUpViewController.m */; };
+		95B0C7F61E8F3169008BB00F /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C7F51E8F3169008BB00F /* SignInViewController.m */; };
+		95B0C7F91E8F317C008BB00F /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C7F81E8F317C008BB00F /* SignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +75,22 @@
 		79CFBEF7C751693A6AAEA502 /* libPods-LocationFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocationFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		920ECBDF863113C5F4C5CD25 /* Pods-LocationFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationFinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationFinder/Pods-LocationFinder.release.xcconfig"; sourceTree = "<group>"; };
 		94FF3296D443969B32E1232A /* libPods-LocationFinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocationFinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958F6B781E89939200249962 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		958F6B791E89939200249962 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95B0C7DF1E8F0A10008BB00F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		95B0C7E01E8F0A10008BB00F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		95B0C7E51E8F1013008BB00F /* Home_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_1.jpg; sourceTree = "<group>"; };
+		95B0C7E61E8F1013008BB00F /* Home_Signin_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_Signin_1.jpg; sourceTree = "<group>"; };
+		95B0C7E71E8F1013008BB00F /* Home_SignUp_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_SignUp_1.jpg; sourceTree = "<group>"; };
+		95B0C7E81E8F1013008BB00F /* Home_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_2.jpg; sourceTree = "<group>"; };
+		95B0C7ED1E8F196E008BB00F /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		95B0C7EF1E8F1F9B008BB00F /* Home_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Home_3.jpg; sourceTree = "<group>"; };
+		95B0C7F11E8F3159008BB00F /* SignInSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInSignUpViewController.h; sourceTree = "<group>"; };
+		95B0C7F21E8F3159008BB00F /* SignInSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInSignUpViewController.m; sourceTree = "<group>"; };
+		95B0C7F41E8F3169008BB00F /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		95B0C7F51E8F3169008BB00F /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		95B0C7F71E8F317C008BB00F /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		95B0C7F81E8F317C008BB00F /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		BED66BABFB73253C6969F4DD /* Pods-LocationFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationFinderTests/Pods-LocationFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,7 +176,21 @@
 				4CFC74DB192492C0002146AC /* LocationFinderViewController.h */,
 				4CFC74DC192492C0002146AC /* LocationFinderViewController.m */,
 				4CFC74DE192492C0002146AC /* Images.xcassets */,
+				95B0C7EF1E8F1F9B008BB00F /* Home_3.jpg */,
+				95B0C7E51E8F1013008BB00F /* Home_1.jpg */,
+				95B0C7E61E8F1013008BB00F /* Home_Signin_1.jpg */,
+				95B0C7E71E8F1013008BB00F /* Home_SignUp_1.jpg */,
+				95B0C7E81E8F1013008BB00F /* Home_2.jpg */,
 				4CFC74CA192492C0002146AC /* Supporting Files */,
+				958F6B781E89939200249962 /* ViewController.h */,
+				958F6B791E89939200249962 /* ViewController.m */,
+				95B0C7ED1E8F196E008BB00F /* Launch Screen.storyboard */,
+				95B0C7F11E8F3159008BB00F /* SignInSignUpViewController.h */,
+				95B0C7F21E8F3159008BB00F /* SignInSignUpViewController.m */,
+				95B0C7F41E8F3169008BB00F /* SignInViewController.h */,
+				95B0C7F51E8F3169008BB00F /* SignInViewController.m */,
+				95B0C7F71E8F317C008BB00F /* SignUpViewController.h */,
+				95B0C7F81E8F317C008BB00F /* SignUpViewController.m */,
 			);
 			path = LocationFinder;
 			sourceTree = "<group>";
@@ -157,6 +198,8 @@
 		4CFC74CA192492C0002146AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				95B0C7DF1E8F0A10008BB00F /* SWRevealViewController.h */,
+				95B0C7E01E8F0A10008BB00F /* SWRevealViewController.m */,
 				4CFC74CB192492C0002146AC /* LocationFinder-Info.plist */,
 				4CFC74CC192492C0002146AC /* InfoPlist.strings */,
 				4CFC74CF192492C0002146AC /* main.m */,
@@ -268,8 +311,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B0C7EB1E8F1013008BB00F /* Home_SignUp_1.jpg in Resources */,
+				95B0C7EA1E8F1013008BB00F /* Home_Signin_1.jpg in Resources */,
+				95B0C7F01E8F1F9B008BB00F /* Home_3.jpg in Resources */,
 				4CFC74DA192492C0002146AC /* Main_iPad.storyboard in Resources */,
+				95B0C7EE1E8F196E008BB00F /* Launch Screen.storyboard in Resources */,
+				95B0C7EC1E8F1013008BB00F /* Home_2.jpg in Resources */,
 				4CFC74DF192492C0002146AC /* Images.xcassets in Resources */,
+				95B0C7E91E8F1013008BB00F /* Home_1.jpg in Resources */,
 				4CFC74D7192492C0002146AC /* Main_iPhone.storyboard in Resources */,
 				4CFC74CE192492C0002146AC /* InfoPlist.strings in Resources */,
 			);
@@ -383,8 +432,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B0C7F61E8F3169008BB00F /* SignInViewController.m in Sources */,
 				4CFC74DD192492C0002146AC /* LocationFinderViewController.m in Sources */,
 				4CFC74D4192492C0002146AC /* AppDelegate.m in Sources */,
+				95B0C7E11E8F0A10008BB00F /* SWRevealViewController.m in Sources */,
+				958F6B7A1E89939200249962 /* ViewController.m in Sources */,
+				95B0C7F31E8F3159008BB00F /* SignInSignUpViewController.m in Sources */,
+				95B0C7F91E8F317C008BB00F /* SignUpViewController.m in Sources */,
 				4CFC74D0192492C0002146AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

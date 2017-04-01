@@ -18,16 +18,41 @@ PODS:
   - AFNetworking/UIKit (2.2.4):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
+  - AXWireButton (1.0.0)
   - FTGooglePlacesAPI (1.1):
     - AFNetworking (~> 2.2.0)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.2.0):
+    - GoogleMaps (= 2.2.0)
+    - GooglePlaces (= 2.2.0)
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - PRAugmentedReality (3.1.0)
+  - TPKeyboardAvoiding (1.3.1)
 
 DEPENDENCIES:
+  - AXWireButton
   - FTGooglePlacesAPI
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - PRAugmentedReality
+  - TPKeyboardAvoiding
 
 SPEC CHECKSUMS:
   AFNetworking: caca0799b310f0c3bf1fc1af45145fc96972bcab
+  AXWireButton: 91eed70d80eb92235a37e0d0c88136252743aebf
   FTGooglePlacesAPI: 72eaa924ed03039b0323d617305103b504c5cd4f
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlacePicker: 345b1aabd42c9d6d9bf2369c1bae1234d903e764
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  PRAugmentedReality: a9bb0e0cf4ea2ab95f29696dfba0516c10ea0148
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
 
-PODFILE CHECKSUM: 0fa8efeb50ac7df6e923806b7f7e9c817e96810b
+PODFILE CHECKSUM: 84846ae70cd4ad26a1c87ab03d403470cd41dd2b
 
 COCOAPODS: 1.2.0

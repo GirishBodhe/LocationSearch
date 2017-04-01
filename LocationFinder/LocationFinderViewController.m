@@ -8,12 +8,16 @@
 
 #import "LocationFinderViewController.h"
 #import <FTGooglePlacesAPI/FTGooglePlacesAPI.h>
+#import "ViewController.h"
 @interface LocationFinderViewController ()
 {
     CLGeocoder *geocoder;
     CLPlacemark *placemark;
 }
+@property(nonatomic,strong)NSMutableArray *place1;
+@property(nonatomic,strong)CLLocation *location;
 @end
+
 
 @implementation LocationFinderViewController
 @synthesize locationManager;
@@ -64,7 +68,7 @@
             //  Create request searching nearest galleries and museums
             FTGooglePlacesAPINearbySearchRequest *request = [[FTGooglePlacesAPINearbySearchRequest alloc] initWithLocationCoordinate:locationCoordinate];
             request.rankBy = FTGooglePlacesAPIRequestParamRankByDistance;
-            request.types = @[@"art_gallery", @"museum",@"hotel"];
+            request.types = @[@"art_gallery", @"museum",@"hotel",@"school",@"hospital"];
             //  Execute Google Places API request using FTGooglePlacesAPIService
             [FTGooglePlacesAPIService executeSearchRequest:request
                                      withCompletionHandler:^(FTGooglePlacesAPISearchResponse *response, NSError *error) {
@@ -84,11 +88,22 @@
                                          }
                                          
                                          //  Everything went fine, we have response object we can process
-                                         NSLog(@"Request succeeded. Response: %lu", (unsigned long)[response.results count]);
-                                         txtLatitude.text = [NSString stringWithFormat:@"%f  (%lu)",newLocation.coordinate.latitude,(unsigned long)[response.results count]];
+                                        // NSLog(@"Request succeeded. Response: %@",[response.results firstObject]);
+                                         _place1 = [[NSMutableArray alloc]init];
+                                         for (FTGooglePlacesAPISearchResultItem * places in response.results) {
+                                             [_place1 addObject:[places originalDictionaryRepresentation]];
+                                             
+                                         }
+                                         NSLog(@"%@", _place1);
+                                         for (NSDictionary *dic in _place1) {
+                                             
+                                             
+                                             NSLog(@" %@",dic);
+                                         }
+                                         txtLatitude.text = [NSString stringWithFormat:@"%f ",newLocation.coordinate.latitude];
                                          txtLongitude.text = [NSString stringWithFormat:@"%f",newLocation.coordinate.longitude];
                                          
-                                         
+                                         self.location = newLocation;
 
                                      }];
             
@@ -107,5 +122,23 @@
     NSLog(@"Cannot find the location.");
 }
 
+- (IBAction)placeButton:(id)sender {
+    
+    [self performSegueWithIdentifier:@"place" sender:sender];
+}
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Make sure your segue name in storyboard is the same as this line
+    if ([[segue identifier] isEqualToString:@"place"])
+    {
+        // Get reference to the destination view controller
+        ViewController *vc = [segue destinationViewController];
+        vc.dic=_place1;
+        vc.Curruntlocation = self.location;
+        NSLog(@"%@",_place1);
+        // Pass any objects to the view controller here, like...
+        
+    }
+}
 
 @end
