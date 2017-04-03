@@ -19,6 +19,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+<<<<<<< HEAD
 		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -29,6 +30,8 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+=======
+>>>>>>> origin/master
 		<key>PRAugmentedReality.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -52,7 +55,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+<<<<<<< HEAD
 		<key>1ADE7B2751C018FC140EE1552AE04223</key>
+=======
+		<key>2C09634434487C01013F0A2417C03DD9</key>
+>>>>>>> origin/master
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,6 +74,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+<<<<<<< HEAD
 		<key>58E7450DB13C5ECCE92D3C0DF7CF0903</key>
 		<dict>
 			<key>primary</key>
@@ -77,12 +85,18 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+=======
+>>>>>>> origin/master
 		<key>70CBCCA47D4B181EEE8013696F43FFAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+<<<<<<< HEAD
 		<key>9D875882B4FF610811C301D1CCDCA039</key>
+=======
+		<key>C67674AB644F11703810CFAAAF0E0A4C</key>
+>>>>>>> origin/master
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +106,11 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+<<<<<<< HEAD
 		<key>DE868725B18AE240E550C5515AE66BC4</key>
+=======
+		<key>DD4676A7967C9AF876B580443CBC90CF</key>
+>>>>>>> origin/master
 		<dict>
 			<key>primary</key>
 			<true/>

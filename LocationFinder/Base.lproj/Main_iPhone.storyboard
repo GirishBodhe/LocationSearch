@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="WUh-PK-AuD">
+>>>>>>> origin/master
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -123,7 +127,11 @@
             </objects>
             <point key="canvasLocation" x="365.5" y="166.5"/>
         </scene>
+<<<<<<< HEAD
         <!--Street Location-->
+=======
+        <!--View Controller-->
+>>>>>>> origin/master
         <scene sceneID="Xq0-G9-xDl">
             <objects>
                 <viewController id="7wH-Bw-TVm" customClass="ViewController" sceneMemberID="viewController">
@@ -136,7 +144,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+<<<<<<< HEAD
                     <navigationItem key="navigationItem" title="Street Location" id="pOG-vJ-Mt0"/>
+=======
+                    <navigationItem key="navigationItem" id="pOG-vJ-Mt0"/>
+>>>>>>> origin/master
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ca-gv-Tyd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -160,6 +172,7 @@
             </objects>
             <point key="canvasLocation" x="-68" y="167"/>
         </scene>
+<<<<<<< HEAD
         <!--Navigation Controller-->
         <scene sceneID="0Rl-Bq-2bH">
             <objects>
@@ -176,6 +189,8 @@
             </objects>
             <point key="canvasLocation" x="-1605" y="264"/>
         </scene>
+=======
+>>>>>>> origin/master
         <!--Sign In Sign Up View Controller-->
         <scene sceneID="jBq-bC-ogh">
             <objects>
@@ -202,9 +217,12 @@
                                         <state key="normal" title="Sign Up">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+<<<<<<< HEAD
                                         <connections>
                                             <action selector="signUp:" destination="dFZ-Ks-2Pm" eventType="touchUpInside" id="CMx-0A-eir"/>
                                         </connections>
+=======
+>>>>>>> origin/master
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whB-xm-ckf" customClass="AXWireButton">
                                         <rect key="frame" x="8" y="517" width="359" height="50"/>
@@ -214,9 +232,12 @@
                                         <state key="normal" title="Sign In">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+<<<<<<< HEAD
                                         <connections>
                                             <action selector="signin:" destination="dFZ-Ks-2Pm" eventType="touchUpInside" id="4rp-HQ-ZiJ"/>
                                         </connections>
+=======
+>>>>>>> origin/master
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOCATION SEARCH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BkO-M2-zpK">
                                         <rect key="frame" x="37" y="59" width="301.5" height="41"/>
@@ -254,8 +275,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="nAM-ap-fY7"/>
                     <connections>
+<<<<<<< HEAD
                         <segue destination="q9d-MI-210" kind="push" identifier="signin" id="Djj-As-Rwu"/>
                         <segue destination="LFw-PH-ITw" kind="push" identifier="signup" id="Tio-7T-3ht"/>
+=======
+                        <segue destination="q9d-MI-210" kind="push" id="Djj-As-Rwu"/>
+                        <segue destination="LFw-PH-ITw" kind="push" id="Tio-7T-3ht"/>
+>>>>>>> origin/master
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PGf-dr-LI6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -302,7 +328,11 @@
                                                 </constraints>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+<<<<<<< HEAD
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+=======
+                                                <textInputTraits key="textInputTraits"/>
+>>>>>>> origin/master
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTd-cP-4OF" customClass="AXWireButton">
                                                 <rect key="frame" x="8" y="180" width="359" height="50"/>
@@ -312,9 +342,12 @@
                                                 <state key="normal" title="Sign In">
                                                     <color key="titleColor" red="0.92941176469999998" green="0.85490196080000003" blue="0.4549019608" alpha="0.65493899830000002" colorSpace="calibratedRGB"/>
                                                 </state>
+<<<<<<< HEAD
                                                 <connections>
                                                     <action selector="SignIn:" destination="q9d-MI-210" eventType="touchUpInside" id="Fuc-AZ-1Sg"/>
                                                 </connections>
+=======
+>>>>>>> origin/master
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKV-8S-VKQ">
                                                 <rect key="frame" x="8" y="238" width="359" height="19"/>
@@ -324,9 +357,12 @@
                                                 <state key="normal" title="Cancle">
                                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+<<<<<<< HEAD
                                                 <connections>
                                                     <action selector="cancle:" destination="q9d-MI-210" eventType="touchUpInside" id="YPk-17-Qv0"/>
                                                 </connections>
+=======
+>>>>>>> origin/master
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -367,10 +403,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KAV-3v-rIM"/>
+<<<<<<< HEAD
                     <connections>
                         <outlet property="emailidTextField" destination="2EC-dS-eu1" id="zkf-LP-4om"/>
                         <outlet property="passwaordTextField" destination="2zW-qQ-1wG" id="cee-Ws-SyB"/>
                     </connections>
+=======
+>>>>>>> origin/master
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j7K-XY-R3S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -416,16 +455,26 @@
                                                 </constraints>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+<<<<<<< HEAD
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Confirm Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bZ1-bo-gIJ">
+=======
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bZ1-bo-gIJ">
+>>>>>>> origin/master
                                                 <rect key="frame" x="8" y="192" width="359" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="50" id="jIl-Co-JBP"/>
                                                 </constraints>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
+<<<<<<< HEAD
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+=======
+                                                <textInputTraits key="textInputTraits"/>
+>>>>>>> origin/master
                                             </textField>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p3V-KW-eJg">
                                                 <rect key="frame" x="8" y="60" width="359" height="50"/>
@@ -444,9 +493,12 @@
                                                 <state key="normal" title="Sign Up">
                                                     <color key="titleColor" red="0.92941176469999998" green="0.85490196080000003" blue="0.4549019608" alpha="0.65493899830000002" colorSpace="calibratedRGB"/>
                                                 </state>
+<<<<<<< HEAD
                                                 <connections>
                                                     <action selector="signUp:" destination="LFw-PH-ITw" eventType="touchUpInside" id="nxL-i5-lnF"/>
                                                 </connections>
+=======
+>>>>>>> origin/master
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AXU-am-pcU">
                                                 <rect key="frame" x="8" y="290" width="359" height="19"/>
@@ -456,9 +508,12 @@
                                                 <state key="normal" title="Cancle">
                                                     <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
+<<<<<<< HEAD
                                                 <connections>
                                                     <action selector="cancle:" destination="LFw-PH-ITw" eventType="touchUpInside" id="cDZ-CK-FOo"/>
                                                 </connections>
+=======
+>>>>>>> origin/master
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -505,12 +560,15 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2de-p4-w1W"/>
+<<<<<<< HEAD
                     <connections>
                         <outlet property="emailIdTextField" destination="zzH-Om-PbQ" id="E4w-ee-fmr"/>
                         <outlet property="nameTextField" destination="p3V-KW-eJg" id="5sz-c2-Pmt"/>
                         <outlet property="passwordTextField" destination="XbA-pq-Gn5" id="XPa-us-9ah"/>
                         <outlet property="reEnterPasswordTextField" destination="bZ1-bo-gIJ" id="mX0-S2-nRi"/>
                     </connections>
+=======
+>>>>>>> origin/master
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PyX-ND-8n3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

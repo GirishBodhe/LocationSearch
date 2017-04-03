@@ -7,11 +7,16 @@
 //
 
 #import "SignInViewController.h"
+<<<<<<< HEAD
 @import Firebase;
 @import FirebaseAuth;
 @interface SignInViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *emailidTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwaordTextField;
+=======
+
+@interface SignInViewController ()
+>>>>>>> origin/master
 
 @end
 
@@ -26,6 +31,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+<<<<<<< HEAD
 - (IBAction)SignIn:(id)sender {
     
     [[FIRAuth auth]
@@ -67,6 +73,8 @@
     
     
 }
+=======
+>>>>>>> origin/master
 
 /*
 #pragma mark - Navigation

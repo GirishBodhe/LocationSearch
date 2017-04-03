@@ -9,10 +9,13 @@
 #import "LocationFinderViewController.h"
 #import <FTGooglePlacesAPI/FTGooglePlacesAPI.h>
 #import "ViewController.h"
+<<<<<<< HEAD
 
 @import Firebase;
 @import FirebaseAuth;
 
+=======
+>>>>>>> origin/master
 @interface LocationFinderViewController ()
 {
     CLGeocoder *geocoder;

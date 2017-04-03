@@ -23,6 +23,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+<<<<<<< HEAD
 - (IBAction)signin:(id)sender {
     
     [self performSegueWithIdentifier:@"signin" sender:sender];
@@ -32,6 +33,10 @@
     [self performSegueWithIdentifier:@"signup" sender:sender];
 }
 
+=======
+
+/*
+>>>>>>> origin/master
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -39,6 +44,10 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
+<<<<<<< HEAD
 
+=======
+*/
+>>>>>>> origin/master
 
 @end

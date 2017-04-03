@@ -7,6 +7,7 @@
 //
 
 #import "SignUpViewController.h"
+<<<<<<< HEAD
 @import Firebase;
 @import FirebaseAuth;
 @import FirebaseDatabase;
@@ -17,6 +18,10 @@
 @property (weak, nonatomic) IBOutlet UITextField *emailIdTextField;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (weak, nonatomic) IBOutlet UITextField *reEnterPasswordTextField;
+=======
+
+@interface SignUpViewController ()
+>>>>>>> origin/master
 
 @end
 
@@ -24,7 +29,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+<<<<<<< HEAD
     self.ref = [[FIRDatabase database] reference];
+=======
+>>>>>>> origin/master
     // Do any additional setup after loading the view.
 }
 
@@ -32,6 +40,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+<<<<<<< HEAD
 - (IBAction)signUp:(id)sender {
     
     if (![self.passwordTextField.text isEqualToString:self.reEnterPasswordTextField.text]) {
@@ -90,6 +99,8 @@
    [self.navigationController popToRootViewControllerAnimated:YES];
 
 }
+=======
+>>>>>>> origin/master
 
 /*
 #pragma mark - Navigation

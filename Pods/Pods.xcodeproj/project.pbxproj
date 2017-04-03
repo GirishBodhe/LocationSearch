@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00572D94A12840EA0C4734391629C5AA /* Pods-LocationFinderTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D4F4F0717175A1DDCD4072F47207DE /* Pods-LocationFinderTests-dummy.m */; };
+<<<<<<< HEAD
 		0065CC5112407BD2AD7A858E82C3F247 /* FTGooglePlacesAPICommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DFB1350FBA507ACB3B7948A241B362D /* FTGooglePlacesAPICommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02B6B41E0A27CBBB4DE661EA30372D89 /* ARRadar.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E1B5F0205EAB2D3AAD1C51EFD40154 /* ARRadar.m */; };
 		05F5D824A78EF579DF124EDCC775C703 /* FTGooglePlacesAPISearchResultItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D59B5AD96F2A2483A270BE387B84FD3 /* FTGooglePlacesAPISearchResultItem.m */; };
@@ -151,6 +152,121 @@
 			remoteInfo = GoogleToolboxForMac;
 		};
 		6EF9372C31C837EDB8A9C1A0766EE885 /* PBXContainerItemProxy */ = {
+=======
+		0065CC5112407BD2AD7A858E82C3F247 /* FTGooglePlacesAPICommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8153AB08233E128BE09A4C62BFAC2EEA /* FTGooglePlacesAPICommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0477991A2A339433658C1B695409D82F /* ARObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A18D2A3D87069B2D8B01F0C2A5220B19 /* ARObject.m */; };
+		05F5D824A78EF579DF124EDCC775C703 /* FTGooglePlacesAPISearchResultItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DE412660393C3A674EDA9C8C13BD2D /* FTGooglePlacesAPISearchResultItem.m */; };
+		083E347776F8F63FE3B9198D81A96083 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8902033947D6F2F7B59082C36DDAB694 /* AFNetworkActivityIndicatorManager.m */; };
+		105CB8F3E1A0B50A365B38707128C66E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5178975F105771961339EC0A6C59B188 /* MobileCoreServices.framework */; };
+		116D875F05695C6E1F08619BE09A2804 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A9023E22906D758601627645E1A00DB /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1171EB4964916C83EC10154CF20C5DCA /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A37D222318B56E32C641D6B379BE6D0 /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		11B502FFCB4FFF7F3476F6A9674D0F8D /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE05C3466C6754B841F01DFE5192C903 /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		14066117C79ACB40CD543040AB29E7F7 /* FTGooglePlacesAPISearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 593EB04B7464A01DCAEC79B7098081D5 /* FTGooglePlacesAPISearchResponse.m */; };
+		1450DB4E6385F2206E2A0B8CE4ECF841 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 92B6041E700B280D4EC2805CF2D87029 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1921B060D2AAF48DFD04919D50BF744C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75BD595D1F297A79F04CEE404A7961A0 /* CoreGraphics.framework */; };
+		194B9D6AFDD8902957CA58C7DF992DD5 /* ARRadar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B625B995ED3C83C967CD8744C8FDCB9 /* ARRadar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AFA50D55684463D02F8E9054B7002A3 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 43386C8CC7C15B6E999C457F63180A70 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FD8AB331E8AAE5445DF115364EABB5E /* FTGooglePlacesAPIResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4651B3270F56AE685CA7B68EF37309 /* FTGooglePlacesAPIResponse.m */; };
+		20C306E058CA745C7951FAC8CF7A3958 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5178975F105771961339EC0A6C59B188 /* MobileCoreServices.framework */; };
+		2351D04D4D4C297607C80E754EB9EBF2 /* PRARManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F20D57EC060AB3939C90B7475D0B01F9 /* PRARManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2757F9EC711B2C4B0C2F200F7E07AABE /* FTGooglePlacesAPIDetailRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A109915BB646BBD51C72955CC96CF7D /* FTGooglePlacesAPIDetailRequest.m */; };
+		28ABB5249393C4B0FA19A5382D0DCB65 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3192A7B76062E5B440A50093593DBD50 /* AFURLSessionManager.m */; };
+		2DDA1CBD3114A029974008D344605A4B /* ARRadar.m in Sources */ = {isa = PBXBuildFile; fileRef = BD310E8F3C08A84EC8E99CFF45358179 /* ARRadar.m */; };
+		2EB9AD9B8FBDF4765957DB4FEDDD8007 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 185B7CB4C4F74A1B7DDA82008C24250B /* UIImageView+AFNetworking.m */; };
+		30B60915C39E9080A7F9DD2DFDD847D2 /* FTGooglePlacesAPIService.h in Headers */ = {isa = PBXBuildFile; fileRef = 2724B11D67F5C29A6A0B7B9BB49B17E2 /* FTGooglePlacesAPIService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31D192C4F05161D28F9D3EBCF3F58D14 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC10D42855C1EE854BCB347BB76261F3 /* CoreMotion.framework */; };
+		32E35BA80B04016D6245A608A10F89F9 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 64B3804AE447EA171FED9A0016EF18B7 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33F62C6BB234C72A56BE412B715A365E /* LocationMath.h in Headers */ = {isa = PBXBuildFile; fileRef = A47AF58C9CAB8BDB2350B49527EEA428 /* LocationMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34AF1647A756B67491BC3C69E36190B8 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AD59C3F358D31C619D96F6C9713381FE /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D9D74D23131939D1DF22AB8ECD0BCA8 /* FTGooglePlacesAPIDetailResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5B3407D1FC915904EF555F8A52ADB4 /* FTGooglePlacesAPIDetailResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43BB300A2A1032D80182AB46397BF913 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8691540C27D20F68CA8DC2BCF942A1 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44267F70AB3EB8C7C7D84D54EE2552FA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E19252CFF70F065CB521C86E51AE18C5 /* UIButton+AFNetworking.m */; };
+		445F5ECA13DCF76C689BE4C0AE17C04A /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 066F58921EC34100923E541CFB45E0E1 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E87935803F9DDDCE3E2D52B739DA33 /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB52FC809F151C1D684891937DC47C8 /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B52DEA6EE651A1E72B98DF296ED09A6 /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFE2FEC8324940A936CCB829A8614F7 /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B81A83C5F57BCB8FF98902D3A2B8713 /* FTGooglePlacesAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = 305D848DE201CC34E69CB792D6AD3887 /* FTGooglePlacesAPIService.m */; };
+		4E88C847187A256BE2C45EEE5B6685C3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7CD24CDC8562D260A0F9B81FDCA48A /* SystemConfiguration.framework */; };
+		560DFC2718CD9CE78C675DEEF07A40C8 /* FTGooglePlacesAPIResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = EDC8107A9FAA2698B571826BF5D1A203 /* FTGooglePlacesAPIResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57727455746CCBD16C89633590E3933C /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 523BD8918FF72CA2A7D09CDB52F60B30 /* UIProgressView+AFNetworking.m */; };
+		5837D1EB0DF28084C200BB065F9FD941 /* AXWireButton.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2CB41A5F182D263BB795284DF92D97 /* AXWireButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E8964CBDF1723615E669E41A4CE48D /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = EC756B5A79DF2D2F5335BD662EF1C7BF /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D4286321A134D3793B9E1556B7C77A9 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B018442B8CB0F1E528015DAD9DBA12E8 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB416E5E7F9CB287E54F14B959A6CC7 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C8C59CFE8E5280CD64DAEBC1C7CCD65 /* UIActivityIndicatorView+AFNetworking.m */; };
+		61D591918D931D96391958CA66E4C7E3 /* AXWireButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C998B17CD61FA8C26D78254DB2411F4 /* AXWireButton.m */; };
+		64CC2C6ECA7D28546C727095A060FDD3 /* Pods-LocationFinder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 672CE644D83F3E63EA20933469148795 /* Pods-LocationFinder-dummy.m */; };
+		69B1CF5749837D2AB40E677C96618B0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226DA19F438E780B29F0328C94706425 /* MapKit.framework */; };
+		6B7B58A16DAE36E7C689005091630426 /* FTGooglePlacesAPITextSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A5C817CCF7AF74895F8EDA5BA86296 /* FTGooglePlacesAPITextSearchRequest.m */; };
+		6C0B8BD0B398DC8CE6EB6BE8E333B928 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = C25EEEA30F4667AC44F04FC3281E1371 /* AFSecurityPolicy.m */; };
+		6C66073BC448E640F3B24789154AEF67 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 17D325C6C124C7F38F9F49CC48D580BC /* UIWebView+AFNetworking.m */; };
+		6FA2541EDCB3E8B033FD660EA4DFF027 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A397F40CBB78081CE84730AB2005A579 /* UIRefreshControl+AFNetworking.m */; };
+		703E9B63C6F95FF4E540582694416AC4 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B0D595527998D8B56705E0F1C5C8C72 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70BCC94F513ECE5EF37C1FA4D541CA34 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3971CDDB83995AA3BF760B0479EC2D90 /* AFHTTPRequestOperationManager.m */; };
+		71B0E121B7AE432C01811947E365A85B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A19231B9F3C3166DEED92E1309ED28C7 /* Security.framework */; };
+		725B5CBDD20E44E8661F401F587E99BC /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DDB0B036362A9B6292427E5851062B /* AFHTTPRequestOperation.m */; };
+		7504025F1FB12FA4206DDB6092A4ED06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */; };
+		7C64508020EA9C78CBDB8045EA2DED18 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0FB2940B519EB455F8B52332C226C2 /* TPKeyboardAvoiding-dummy.m */; };
+		7C784C11A07442600BAB93AF8705CA4B /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F77325249A52D24CCC3A88F325E389D1 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D5DBD8C78AD94D0B103129951BF6F34 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F55B4B400771377EA5253405EAB3E9 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7E612F7099590BEA91C4EFFD7C383714 /* FTGooglePlacesAPIDictionaryRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D3772B720043A886E8B4FC2B4B074 /* FTGooglePlacesAPIDictionaryRequest.m */; };
+		81A5E1236040385446B455087389D936 /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C04B54E14ED6BF186F5C7EBB06EDD10 /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82BCC2FEABAB22CC37ED265694B42DAE /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE105F1DB08353C377F3C3ACB387449A /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84BB8092C755AC4242CECD69627928D6 /* ARController.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B99AAB2EB54E3B6C5E88CC8E8C4220 /* ARController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		855C20D4EEA8F047E2CC38ED5235D982 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 477C3C917DF9AA6BE77805F37FBB4C66 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878511E19773551A47CDD5B266CDF278 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3742E5B355E418C866AB989B09A34B83 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89E6D08B505378211D24D63ACCA24C0C /* FTGooglePlacesAPITextSearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 43FAE80DDA09F1A224B7D2F593495B4B /* FTGooglePlacesAPITextSearchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		954F7C0E10F8C2CE56E2C1055F9B0464 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3330B9737DA95C4A90D15810EF639E24 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		955BB06CA7E96F906C27D90DC11844B4 /* FTGooglePlacesAPIDetailRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EFE9D3012A9B2046FAC3632CD9BC8F0 /* FTGooglePlacesAPIDetailRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CD62C937E26C24C47B35BE44DA3E42C /* PRAugmentedReality-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8F07DFFC3CDF4C1E2FC9F3CB3734B4 /* PRAugmentedReality-dummy.m */; };
+		9EC6D33AD5418FEA9FD05D9C5C24C130 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */; };
+		9F2340F42FC84935D0517E1C5E56BE6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */; };
+		B0AB1173F3FDCACEE603F145BF18B429 /* FTGooglePlacesAPINearbySearchRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 907C163FF80ECA753AA4E08D3D92298D /* FTGooglePlacesAPINearbySearchRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B16AABE23328F7B734A032F36023FA5D /* FTGooglePlacesAPINearbySearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC874CDBB607E4B013F0071F61EA7F6 /* FTGooglePlacesAPINearbySearchRequest.m */; };
+		B20B56F5C7C16F73FE8255D0135EF406 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A8A1F92333120CAAFF212F2A1A8C6F /* AFURLResponseSerialization.m */; };
+		B540E876246FD909EFFCEA961F82328C /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 69D23D4E3C237F15A64903D5314E26FD /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B82B348C3385D0D62B54CA9835B51083 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C7CD24CDC8562D260A0F9B81FDCA48A /* SystemConfiguration.framework */; };
+		B95EACFF8A429A57FA8CB7B8B09A2C4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */; };
+		B979C3D3F9FAD605FBE49071F94ADB1F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F674445CB46A80ABF85DEA9CE0538A0 /* CoreLocation.framework */; };
+		C7C2B3F4A27B5BDED808932753EAC925 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */; };
+		C9A5E72B88F6C598BEF99EF7309A862B /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B8F3E65FC3BA150D4D3AF554554FCE /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA7C9456004D66BAD152C127D926C4D5 /* LocationMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 261629B3AFAF7BACCA6B2815612DADA1 /* LocationMath.m */; };
+		CE1E15624A69D909AD8786406BB5D7AC /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD86FED9B80EA9674F79B5CFFA7123E6 /* UIAlertView+AFNetworking.m */; };
+		CF9555AA6F9EF0F2879F75A0965C72F6 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AE3C968B02A67661BCD96A111C7899 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD057E9420F7EF765F202E3B29EF675 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7694CF0313A2F03F5517BFD3A5BB8D /* AFNetworking-dummy.m */; };
+		D08AB270CA9BAE048D1F6E0B2B9695A0 /* PRARManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A19A9CFFA2793B93593791C59D2672 /* PRARManager.m */; };
+		D180F119A3D7A75D58949BBB61B59C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */; };
+		D1CB624E0FF1F2913925D3214CA9161A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87ED8BD8F75D6E3C4D66B75402CA3F8 /* AVFoundation.framework */; };
+		D2F44364F9FA1A1EEB2B0DD0673FDD39 /* FTGooglePlacesAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = B546BCAFF7B85A88C8F065C16983C34F /* FTGooglePlacesAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3032DF68B6707F3111E0FB6B708AAA7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986169C01B931E015D78CCF8F4DF9375 /* QuartzCore.framework */; };
+		D33D2587D2E6EA01640AFF29B73C757A /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE4059B71518099D227FFF053809485 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D341DCA84D6E961DFB0FB3D84D843D5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */; };
+		D51022513468C57D156330FAE156F928 /* FTGooglePlacesAPIDetailResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875197F35BCB3BE0A333C43AA2681DB /* FTGooglePlacesAPIDetailResponse.m */; };
+		D7087C27F676B5361D6E2EAC93C23484 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 55EF39DB411BABFF2FFCC868AC36E89D /* AFURLRequestSerialization.m */; };
+		DD6DE3E8369960B5AD91C452B1933938 /* FTGooglePlacesAPISearchResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = E2DD699EC4DD646FE025C9D83D2D8716 /* FTGooglePlacesAPISearchResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E190879397FF5CCFED353FDB69D4775D /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB60EF23467E2AB0A48C3DD82380A96 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2223A0A72F81300E2CE9BE39764C8FF /* ARSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 97C84395C61D224F1E5FCCEBD7964B5C /* ARSettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4C8D51D86802DA5A06A2C8C51A6FB5A /* FTGooglePlacesAPISearchResultItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8AD2872E7B9B8D16A7C2D58DFD8871 /* FTGooglePlacesAPISearchResultItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E648F15C20130FBFC2CD92B1870C93E8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91659D4F2E4A7A53C4A8F744E6B9ED90 /* AFHTTPSessionManager.m */; };
+		E80F3F888D6A404DC616AF029033BB72 /* FTGooglePlacesAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D10BF978CE96D69A853AB5CAA84DF5 /* FTGooglePlacesAPI-dummy.m */; };
+		EF72B9184DCC91C139A174AA1202D497 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D74F1C4FCA86A5CD1FA4FACB7BD4B040 /* AFNetworkReachabilityManager.m */; };
+		F14A2CF966F98F5E80C0194CAF3219AD /* ARObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 045770271CDB4D001960DC83C9303BED /* ARObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F361C0A5D9F7659E6F2CF27BC9735688 /* FTGooglePlacesAPICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C854C85418F8F09AD95B00EC31C31 /* FTGooglePlacesAPICommon.m */; };
+		F90421708CDF41D1A389C1692A745BDA /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E45479B26B319C9DCB86B63F6BF076 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB65696D01DF37E67F460190706AB0DC /* FTGooglePlacesAPIDictionaryRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 59E223195408DAEFB894BC85B3322831 /* FTGooglePlacesAPIDictionaryRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB91BAE5B9E997877C5418CEE53354DD /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6950304D8CA104E9FFC72014C43EBE74 /* AFURLConnectionOperation.m */; };
+		FC6B62C78A7F3B7261E7794FCE9F8334 /* ARController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EC1F7F1939BF11E2B40C79AF738BA4 /* ARController.m */; };
+		FE2350B7B435FE931471DBF15A0D518C /* AXWireButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CA81BA1B80E984D8509C94DA19BA28 /* AXWireButton-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CED4592B39181A37E6E0F886F67C46D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C95C45974D77E3E41FE9D2A80E093179;
+			remoteInfo = AFNetworking;
+		};
+		92DF11147261C08539F1938EA63A9C76 /* PBXContainerItemProxy */ = {
+>>>>>>> origin/master
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -171,6 +287,7 @@
 			remoteGlobalIDString = C95C45974D77E3E41FE9D2A80E093179;
 			remoteInfo = AFNetworking;
 		};
+<<<<<<< HEAD
 		AF1CDD93D6C23C15F41511830EC0559D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -179,11 +296,28 @@
 			remoteInfo = TPKeyboardAvoiding;
 		};
 		CA3E6EC1CE14601994FF94AB1A604F2A /* PBXContainerItemProxy */ = {
+=======
+		B6AD93B1320711BE197A268702EF76BC /* PBXContainerItemProxy */ = {
+>>>>>>> origin/master
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C95C45974D77E3E41FE9D2A80E093179;
-			remoteInfo = AFNetworking;
+			remoteGlobalIDString = 2C09634434487C01013F0A2417C03DD9;
+			remoteInfo = PRAugmentedReality;
+		};
+		C77D3C4FCE45F220B650362CC310D476 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67674AB644F11703810CFAAAF0E0A4C;
+			remoteInfo = TPKeyboardAvoiding;
+		};
+		FDA9B853A16E948CFD13A5F347B1CCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5117AB33219594B4492F01E060D31462;
+			remoteInfo = AXWireButton;
 		};
 		FF8F2E86EFFC103DF386A1F7154CBBD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -196,6 +330,7 @@
 
 /* Begin PBXFileReference section */
 		01D4F4F0717175A1DDCD4072F47207DE /* Pods-LocationFinderTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationFinderTests-dummy.m"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		02283A75BFE635ABC6E2DCE9AADA3376 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
 		04F61C0402183A5FE56C12C181A2D5E9 /* GTMSessionFetcherService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherService.m; path = Source/GTMSessionFetcherService.m; sourceTree = "<group>"; };
 		052C5532BB650D2FCD9991F1BC0FB80D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
@@ -366,6 +501,146 @@
 		FBFF471C2A11268D8744C86A9971FB8E /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		FEA26090D536D06CF61C87AF4E6109A4 /* ARRadar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARRadar.h; path = Classes/Location/ARRadar.h; sourceTree = "<group>"; };
 		FF4B766FC2DD98A26F9BB5AC398DC30F /* FTGooglePlacesAPIDetailResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPIDetailResponse.m; path = FTGooglePlacesAPI/FTGooglePlacesAPIDetailResponse.m; sourceTree = "<group>"; };
+=======
+		045770271CDB4D001960DC83C9303BED /* ARObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARObject.h; path = Classes/AR/ARObject.h; sourceTree = "<group>"; };
+		066F58921EC34100923E541CFB45E0E1 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		0A9023E22906D758601627645E1A00DB /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		0A9F30C35405C4CE5FB7C8339D1C02F6 /* ARObject.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ARObject.xib; path = Classes/AR/ARObject.xib; sourceTree = "<group>"; };
+		0AB60EF23467E2AB0A48C3DD82380A96 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		0C6C56CA82448BFE0DCE768296F47947 /* Pods-LocationFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		0C7CD24CDC8562D260A0F9B81FDCA48A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		0E99474D021E9DF11598011FF10415BC /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1145D31B5D09958D7F6BA22D20DCCEE8 /* Pods-LocationFinder-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationFinder-acknowledgements.plist"; sourceTree = "<group>"; };
+		17D325C6C124C7F38F9F49CC48D580BC /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		185B7CB4C4F74A1B7DDA82008C24250B /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		1875197F35BCB3BE0A333C43AA2681DB /* FTGooglePlacesAPIDetailResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPIDetailResponse.m; path = FTGooglePlacesAPI/FTGooglePlacesAPIDetailResponse.m; sourceTree = "<group>"; };
+		1C998B17CD61FA8C26D78254DB2411F4 /* AXWireButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AXWireButton.m; path = Classes/AXWireButton.m; sourceTree = "<group>"; };
+		1D0F7DFC7077B617C875AE1F303AA044 /* Radar.png */ = {isa = PBXFileReference; includeInIndex = 1; name = Radar.png; path = Classes/Graphics/Radar.png; sourceTree = "<group>"; };
+		21C03DEA2F78BDA009B9D02F0DD44BA1 /* Pods-LocationFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationFinder.release.xcconfig"; sourceTree = "<group>"; };
+		226DA19F438E780B29F0328C94706425 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		261629B3AFAF7BACCA6B2815612DADA1 /* LocationMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LocationMath.m; path = Classes/Location/LocationMath.m; sourceTree = "<group>"; };
+		26A8A1F92333120CAAFF212F2A1A8C6F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		2724B11D67F5C29A6A0B7B9BB49B17E2 /* FTGooglePlacesAPIService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPIService.h; path = FTGooglePlacesAPI/FTGooglePlacesAPIService.h; sourceTree = "<group>"; };
+		2B2D3772B720043A886E8B4FC2B4B074 /* FTGooglePlacesAPIDictionaryRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPIDictionaryRequest.m; path = FTGooglePlacesAPI/FTGooglePlacesAPIDictionaryRequest.m; sourceTree = "<group>"; };
+		2BD8F5384E89EA14791A245A7BB56919 /* ar_overlay.png */ = {isa = PBXFileReference; includeInIndex = 1; name = ar_overlay.png; path = Classes/Graphics/ar_overlay.png; sourceTree = "<group>"; };
+		2C7694CF0313A2F03F5517BFD3A5BB8D /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		2C8C59CFE8E5280CD64DAEBC1C7CCD65 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		2E8F07DFFC3CDF4C1E2FC9F3CB3734B4 /* PRAugmentedReality-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PRAugmentedReality-dummy.m"; sourceTree = "<group>"; };
+		30510724CE760A4C07750E107D34F68A /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		305D848DE201CC34E69CB792D6AD3887 /* FTGooglePlacesAPIService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPIService.m; path = FTGooglePlacesAPI/FTGooglePlacesAPIService.m; sourceTree = "<group>"; };
+		31795FEDCBAAB6B63DE50D79A1B1D240 /* libTPKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTPKeyboardAvoiding.a; path = libTPKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3192A7B76062E5B440A50093593DBD50 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		3330B9737DA95C4A90D15810EF639E24 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		339FC870E7E25CC575834B9E150231DB /* Pods-LocationFinder-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationFinder-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3742E5B355E418C866AB989B09A34B83 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		3971CDDB83995AA3BF760B0479EC2D90 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		3A1F9666E70273EBBA381C6D1051212D /* libFTGooglePlacesAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFTGooglePlacesAPI.a; path = libFTGooglePlacesAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C04B54E14ED6BF186F5C7EBB06EDD10 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		417D803F2524ED2F9EDF438748341A51 /* ar_icon.png */ = {isa = PBXFileReference; includeInIndex = 1; name = ar_icon.png; path = Classes/Graphics/ar_icon.png; sourceTree = "<group>"; };
+		43386C8CC7C15B6E999C457F63180A70 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		43FAE80DDA09F1A224B7D2F593495B4B /* FTGooglePlacesAPITextSearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPITextSearchRequest.h; path = FTGooglePlacesAPI/FTGooglePlacesAPITextSearchRequest.h; sourceTree = "<group>"; };
+		45F45B28BB28C0471AD0F8CE82DCCFAB /* TPKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		477C3C917DF9AA6BE77805F37FBB4C66 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		49A5C817CCF7AF74895F8EDA5BA86296 /* FTGooglePlacesAPITextSearchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPITextSearchRequest.m; path = FTGooglePlacesAPI/FTGooglePlacesAPITextSearchRequest.m; sourceTree = "<group>"; };
+		4EFE9D3012A9B2046FAC3632CD9BC8F0 /* FTGooglePlacesAPIDetailRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPIDetailRequest.h; path = FTGooglePlacesAPI/FTGooglePlacesAPIDetailRequest.h; sourceTree = "<group>"; };
+		5178975F105771961339EC0A6C59B188 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		522953B18E6E9D8BB10C4BE4BFC31479 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		523BD8918FF72CA2A7D09CDB52F60B30 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		55EF39DB411BABFF2FFCC868AC36E89D /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		55F55B4B400771377EA5253405EAB3E9 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		57A19A9CFFA2793B93593791C59D2672 /* PRARManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PRARManager.m; path = Classes/PRARManager.m; sourceTree = "<group>"; };
+		593EB04B7464A01DCAEC79B7098081D5 /* FTGooglePlacesAPISearchResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPISearchResponse.m; path = FTGooglePlacesAPI/FTGooglePlacesAPISearchResponse.m; sourceTree = "<group>"; };
+		59E223195408DAEFB894BC85B3322831 /* FTGooglePlacesAPIDictionaryRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPIDictionaryRequest.h; path = FTGooglePlacesAPI/FTGooglePlacesAPIDictionaryRequest.h; sourceTree = "<group>"; };
+		5B625B995ED3C83C967CD8744C8FDCB9 /* ARRadar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARRadar.h; path = Classes/Location/ARRadar.h; sourceTree = "<group>"; };
+		5F674445CB46A80ABF85DEA9CE0538A0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		61962ECBE3FF7A8A513ABA1907ADF200 /* Pods-LocationFinder-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationFinder-frameworks.sh"; sourceTree = "<group>"; };
+		61B99AAB2EB54E3B6C5E88CC8E8C4220 /* ARController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARController.h; path = Classes/AR/ARController.h; sourceTree = "<group>"; };
+		62AE3C968B02A67661BCD96A111C7899 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		640950710FAB8DF45554986182856AA6 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
+		64B3804AE447EA171FED9A0016EF18B7 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		656AC69BC82F94C5DCA17DAAF57924D3 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		672CE644D83F3E63EA20933469148795 /* Pods-LocationFinder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationFinder-dummy.m"; sourceTree = "<group>"; };
+		6950304D8CA104E9FFC72014C43EBE74 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		69D23D4E3C237F15A64903D5314E26FD /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		6A37D222318B56E32C641D6B379BE6D0 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		6B1B9665BF395D453B25A666A4DBA2B9 /* Pods-LocationFinderTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationFinderTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BACBC7168DAF89FCF8A5ECBF7A7B084 /* PRAugmentedReality.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PRAugmentedReality.xcconfig; sourceTree = "<group>"; };
+		6DF14EEE9B2E1476D103C6167400EDFC /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		74E83B9A292FA4E1C8850C8C751AFD4A /* libPRAugmentedReality.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPRAugmentedReality.a; path = libPRAugmentedReality.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BD595D1F297A79F04CEE404A7961A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		778B6755B84F969087C07BF83C02B86B /* AXWireButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXWireButton-prefix.pch"; sourceTree = "<group>"; };
+		7A299D14627E0636C65947CD925C2143 /* Pods-LocationFinderTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationFinderTests-resources.sh"; sourceTree = "<group>"; };
+		7B0D595527998D8B56705E0F1C5C8C72 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		7B134D4021006819DBDD94E97574D723 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		7FB52FC809F151C1D684891937DC47C8 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		8153AB08233E128BE09A4C62BFAC2EEA /* FTGooglePlacesAPICommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPICommon.h; path = FTGooglePlacesAPI/FTGooglePlacesAPICommon.h; sourceTree = "<group>"; };
+		83E88EAA2A5E2EA9FF63E6D8A1B8E398 /* FTGooglePlacesAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTGooglePlacesAPI.xcconfig; sourceTree = "<group>"; };
+		8902033947D6F2F7B59082C36DDAB694 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		8A65C785992831B5B21732A97B5F150B /* PRAugmentedReality-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PRAugmentedReality-prefix.pch"; sourceTree = "<group>"; };
+		8B8691540C27D20F68CA8DC2BCF942A1 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		907C163FF80ECA753AA4E08D3D92298D /* FTGooglePlacesAPINearbySearchRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPINearbySearchRequest.h; path = FTGooglePlacesAPI/FTGooglePlacesAPINearbySearchRequest.h; sourceTree = "<group>"; };
+		91659D4F2E4A7A53C4A8F744E6B9ED90 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		92B6041E700B280D4EC2805CF2D87029 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94DE412660393C3A674EDA9C8C13BD2D /* FTGooglePlacesAPISearchResultItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPISearchResultItem.m; path = FTGooglePlacesAPI/FTGooglePlacesAPISearchResultItem.m; sourceTree = "<group>"; };
+		95D87988C539F0EA7BF38EA70A01845E /* libAXWireButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAXWireButton.a; path = libAXWireButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C84395C61D224F1E5FCCEBD7964B5C /* ARSettings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ARSettings.h; path = Classes/ARSettings.h; sourceTree = "<group>"; };
+		986169C01B931E015D78CCF8F4DF9375 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		98DDB0B036362A9B6292427E5851062B /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		9A109915BB646BBD51C72955CC96CF7D /* FTGooglePlacesAPIDetailRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPIDetailRequest.m; path = FTGooglePlacesAPI/FTGooglePlacesAPIDetailRequest.m; sourceTree = "<group>"; };
+		9A1DDE32D751DF83F92F09703E8526C7 /* libPods-LocationFinderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LocationFinderTests.a"; path = "libPods-LocationFinderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CC874CDBB607E4B013F0071F61EA7F6 /* FTGooglePlacesAPINearbySearchRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPINearbySearchRequest.m; path = FTGooglePlacesAPI/FTGooglePlacesAPINearbySearchRequest.m; sourceTree = "<group>"; };
+		9FFE2FEC8324940A936CCB829A8614F7 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		A02A8B470E020606CDA04D818FB1C280 /* Pods-LocationFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0D10BF978CE96D69A853AB5CAA84DF5 /* FTGooglePlacesAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTGooglePlacesAPI-dummy.m"; sourceTree = "<group>"; };
+		A0EC1F7F1939BF11E2B40C79AF738BA4 /* ARController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARController.m; path = Classes/AR/ARController.m; sourceTree = "<group>"; };
+		A18D2A3D87069B2D8B01F0C2A5220B19 /* ARObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARObject.m; path = Classes/AR/ARObject.m; sourceTree = "<group>"; };
+		A19231B9F3C3166DEED92E1309ED28C7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		A397F40CBB78081CE84730AB2005A579 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		A47AF58C9CAB8BDB2350B49527EEA428 /* LocationMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocationMath.h; path = Classes/Location/LocationMath.h; sourceTree = "<group>"; };
+		A9E45479B26B319C9DCB86B63F6BF076 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		AA5B3407D1FC915904EF555F8A52ADB4 /* FTGooglePlacesAPIDetailResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPIDetailResponse.h; path = FTGooglePlacesAPI/FTGooglePlacesAPIDetailResponse.h; sourceTree = "<group>"; };
+		AD59C3F358D31C619D96F6C9713381FE /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		B018442B8CB0F1E528015DAD9DBA12E8 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		B2B8F3E65FC3BA150D4D3AF554554FCE /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		B4D5AA521957AE32A0C84234D61F41DD /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		B534A20948DF16A6024F437CCE1E0F20 /* Pods-LocationFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		B546BCAFF7B85A88C8F065C16983C34F /* FTGooglePlacesAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPI.h; path = FTGooglePlacesAPI/FTGooglePlacesAPI.h; sourceTree = "<group>"; };
+		BA28857C1DC13C6056A416787083EDA3 /* Pods-LocationFinder-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationFinder-resources.sh"; sourceTree = "<group>"; };
+		BA60D5711F6BA33C1FE875EA7AB165BE /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		BC10D42855C1EE854BCB347BB76261F3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		BD310E8F3C08A84EC8E99CFF45358179 /* ARRadar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ARRadar.m; path = Classes/Location/ARRadar.m; sourceTree = "<group>"; };
+		BFAE5CC15B397BFDA899AE2636BF5C35 /* AXWireButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXWireButton.xcconfig; sourceTree = "<group>"; };
+		C25EEEA30F4667AC44F04FC3281E1371 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		C5CA81BA1B80E984D8509C94DA19BA28 /* AXWireButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXWireButton-dummy.m"; sourceTree = "<group>"; };
+		C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE05C3466C6754B841F01DFE5192C903 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		CEFF5C20457CEB8C9772A666261E6F8D /* RadarMV.png */ = {isa = PBXFileReference; includeInIndex = 1; name = RadarMV.png; path = Classes/Graphics/RadarMV.png; sourceTree = "<group>"; };
+		D46399199D157C6CC1217C6085A27037 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		D74F1C4FCA86A5CD1FA4FACB7BD4B040 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		DC0FB2940B519EB455F8B52332C226C2 /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		E19252CFF70F065CB521C86E51AE18C5 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		E1D2C369D0CB8A59A36860F6F0E22BA4 /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		E2DD699EC4DD646FE025C9D83D2D8716 /* FTGooglePlacesAPISearchResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPISearchResponse.h; path = FTGooglePlacesAPI/FTGooglePlacesAPISearchResponse.h; sourceTree = "<group>"; };
+		E4E905A85AFDBB07BA0003DCF43EA8F1 /* Pods-LocationFinderTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationFinderTests-frameworks.sh"; sourceTree = "<group>"; };
+		EB2C854C85418F8F09AD95B00EC31C31 /* FTGooglePlacesAPICommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPICommon.m; path = FTGooglePlacesAPI/FTGooglePlacesAPICommon.m; sourceTree = "<group>"; };
+		EC2CB41A5F182D263BB795284DF92D97 /* AXWireButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXWireButton.h; path = Classes/AXWireButton.h; sourceTree = "<group>"; };
+		EC756B5A79DF2D2F5335BD662EF1C7BF /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		EDC8107A9FAA2698B571826BF5D1A203 /* FTGooglePlacesAPIResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPIResponse.h; path = FTGooglePlacesAPI/FTGooglePlacesAPIResponse.h; sourceTree = "<group>"; };
+		F084DE837D4E274910AFDBE97B091DC5 /* FTGooglePlacesAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTGooglePlacesAPI-prefix.pch"; sourceTree = "<group>"; };
+		F20D57EC060AB3939C90B7475D0B01F9 /* PRARManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PRARManager.h; path = Classes/PRARManager.h; sourceTree = "<group>"; };
+		F2252448728F3C60CED3D6C0C873F5C3 /* Pods-LocationFinderTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationFinderTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5928BF2A18C1294F0937A0A526430E2 /* libPods-LocationFinder.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LocationFinder.a"; path = "libPods-LocationFinder.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77325249A52D24CCC3A88F325E389D1 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		F87ED8BD8F75D6E3C4D66B75402CA3F8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		F910935F148724BFF41F6C3606DBED30 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		FD38FD3D88132A5BD1869C79E648A1B9 /* ar_overlay@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; name = "ar_overlay@2x.png"; path = "Classes/Graphics/ar_overlay@2x.png"; sourceTree = "<group>"; };
+		FD4651B3270F56AE685CA7B68EF37309 /* FTGooglePlacesAPIResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTGooglePlacesAPIResponse.m; path = FTGooglePlacesAPI/FTGooglePlacesAPIResponse.m; sourceTree = "<group>"; };
+		FD86FED9B80EA9674F79B5CFFA7123E6 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		FDE4059B71518099D227FFF053809485 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		FE105F1DB08353C377F3C3ACB387449A /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		FE8AD2872E7B9B8D16A7C2D58DFD8871 /* FTGooglePlacesAPISearchResultItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTGooglePlacesAPISearchResultItem.h; path = FTGooglePlacesAPI/FTGooglePlacesAPISearchResultItem.h; sourceTree = "<group>"; };
+>>>>>>> origin/master
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -377,6 +652,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		6959A087C2CCEFA75A00AA0D3C57EA8E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,6 +698,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9772F4AA97B526A77B0CD9180397F03 /* Foundation.framework in Frameworks */,
+=======
+		7BA3B75BE560E25FC21708B55272A83F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95EACFF8A429A57FA8CB7B8B09A2C4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E63D6E3A64A7F6271DA247AEF4BAC58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7C2B3F4A27B5BDED808932753EAC925 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4E97863CEF987319AE3F207FD036801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D341DCA84D6E961DFB0FB3D84D843D5A /* Foundation.framework in Frameworks */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +736,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		E468DEE3816A9E9ED082166AC0F3EAAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3E77AA87F046EA6488343E942699FC2 /* Foundation.framework in Frameworks */,
+=======
+		E58D75E3851BDA6E6F1E60ED363ED24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CB624E0FF1F2913925D3214CA9161A /* AVFoundation.framework in Frameworks */,
+				B979C3D3F9FAD605FBE49071F94ADB1F /* CoreLocation.framework in Frameworks */,
+				31D192C4F05161D28F9D3EBCF3F58D14 /* CoreMotion.framework in Frameworks */,
+				7504025F1FB12FA4206DDB6092A4ED06 /* Foundation.framework in Frameworks */,
+				69B1CF5749837D2AB40E677C96618B0E /* MapKit.framework in Frameworks */,
+				105CB8F3E1A0B50A365B38707128C66E /* MobileCoreServices.framework in Frameworks */,
+				D3032DF68B6707F3111E0FB6B708AAA7 /* QuartzCore.framework in Frameworks */,
+				B82B348C3385D0D62B54CA9835B51083 /* SystemConfiguration.framework in Frameworks */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +770,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		07A6BD8226735DB0621587E4AE730631 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,10 +786,25 @@
 			children = (
 				899526DBCE6761FC6EB963742F07808F /* GoogleMaps.framework */,
 				938B236BC5D0019E53A8DB72DDD9545E /* GoogleMapsCore.framework */,
+=======
+		0699A2593231424622F1D87E64668B2F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0C4313D2AD2C5AB72FC67649D16F7A84 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		0C4313D2AD2C5AB72FC67649D16F7A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DF14EEE9B2E1476D103C6167400EDFC /* GoogleMapsBase.framework */,
+>>>>>>> origin/master
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		114ABA7387111EE7254B1918503516BE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -487,10 +817,52 @@
 			isa = PBXGroup;
 			children = (
 				6B63A72597725AF6660197DB03E7744C /* FirebaseCore.framework */,
+=======
+		115B8863EAF7755F366001014FE4CA5A /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				7B0D595527998D8B56705E0F1C5C8C72 /* AFHTTPRequestOperation.h */,
+				98DDB0B036362A9B6292427E5851062B /* AFHTTPRequestOperation.m */,
+				F77325249A52D24CCC3A88F325E389D1 /* AFHTTPRequestOperationManager.h */,
+				3971CDDB83995AA3BF760B0479EC2D90 /* AFHTTPRequestOperationManager.m */,
+				FDE4059B71518099D227FFF053809485 /* AFURLConnectionOperation.h */,
+				6950304D8CA104E9FFC72014C43EBE74 /* AFURLConnectionOperation.m */,
 			);
-			name = Frameworks;
+			name = NSURLConnection;
 			sourceTree = "<group>";
 		};
+		165B6335F28365EE40D1D50698B1EC79 /* FTGooglePlacesAPI */ = {
+			isa = PBXGroup;
+			children = (
+				B546BCAFF7B85A88C8F065C16983C34F /* FTGooglePlacesAPI.h */,
+				8153AB08233E128BE09A4C62BFAC2EEA /* FTGooglePlacesAPICommon.h */,
+				EB2C854C85418F8F09AD95B00EC31C31 /* FTGooglePlacesAPICommon.m */,
+				4EFE9D3012A9B2046FAC3632CD9BC8F0 /* FTGooglePlacesAPIDetailRequest.h */,
+				9A109915BB646BBD51C72955CC96CF7D /* FTGooglePlacesAPIDetailRequest.m */,
+				AA5B3407D1FC915904EF555F8A52ADB4 /* FTGooglePlacesAPIDetailResponse.h */,
+				1875197F35BCB3BE0A333C43AA2681DB /* FTGooglePlacesAPIDetailResponse.m */,
+				59E223195408DAEFB894BC85B3322831 /* FTGooglePlacesAPIDictionaryRequest.h */,
+				2B2D3772B720043A886E8B4FC2B4B074 /* FTGooglePlacesAPIDictionaryRequest.m */,
+				907C163FF80ECA753AA4E08D3D92298D /* FTGooglePlacesAPINearbySearchRequest.h */,
+				9CC874CDBB607E4B013F0071F61EA7F6 /* FTGooglePlacesAPINearbySearchRequest.m */,
+				EDC8107A9FAA2698B571826BF5D1A203 /* FTGooglePlacesAPIResponse.h */,
+				FD4651B3270F56AE685CA7B68EF37309 /* FTGooglePlacesAPIResponse.m */,
+				E2DD699EC4DD646FE025C9D83D2D8716 /* FTGooglePlacesAPISearchResponse.h */,
+				593EB04B7464A01DCAEC79B7098081D5 /* FTGooglePlacesAPISearchResponse.m */,
+				FE8AD2872E7B9B8D16A7C2D58DFD8871 /* FTGooglePlacesAPISearchResultItem.h */,
+				94DE412660393C3A674EDA9C8C13BD2D /* FTGooglePlacesAPISearchResultItem.m */,
+				2724B11D67F5C29A6A0B7B9BB49B17E2 /* FTGooglePlacesAPIService.h */,
+				305D848DE201CC34E69CB792D6AD3887 /* FTGooglePlacesAPIService.m */,
+				43FAE80DDA09F1A224B7D2F593495B4B /* FTGooglePlacesAPITextSearchRequest.h */,
+				49A5C817CCF7AF74895F8EDA5BA86296 /* FTGooglePlacesAPITextSearchRequest.m */,
+				99D7ABF0622F86FDA28F282273F1F92D /* Support Files */,
+>>>>>>> origin/master
+			);
+			name = FTGooglePlacesAPI;
+			path = FTGooglePlacesAPI;
+			sourceTree = "<group>";
+		};
+<<<<<<< HEAD
 		161EDBD125A619D5B6660DF2764B2B1A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -629,6 +1001,44 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TPKeyboardAvoiding";
+=======
+		1C5C4CE7B57F3F5135276ED1B3480A48 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F87ED8BD8F75D6E3C4D66B75402CA3F8 /* AVFoundation.framework */,
+				75BD595D1F297A79F04CEE404A7961A0 /* CoreGraphics.framework */,
+				5F674445CB46A80ABF85DEA9CE0538A0 /* CoreLocation.framework */,
+				BC10D42855C1EE854BCB347BB76261F3 /* CoreMotion.framework */,
+				C6B1D86C43D7E62C06AC4DED16590DBB /* Foundation.framework */,
+				226DA19F438E780B29F0328C94706425 /* MapKit.framework */,
+				5178975F105771961339EC0A6C59B188 /* MobileCoreServices.framework */,
+				986169C01B931E015D78CCF8F4DF9375 /* QuartzCore.framework */,
+				A19231B9F3C3166DEED92E1309ED28C7 /* Security.framework */,
+				0C7CD24CDC8562D260A0F9B81FDCA48A /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2AABE283E90864335C546D56DC5DB5EA /* PRAugmentedReality */ = {
+			isa = PBXGroup;
+			children = (
+				61B99AAB2EB54E3B6C5E88CC8E8C4220 /* ARController.h */,
+				A0EC1F7F1939BF11E2B40C79AF738BA4 /* ARController.m */,
+				045770271CDB4D001960DC83C9303BED /* ARObject.h */,
+				A18D2A3D87069B2D8B01F0C2A5220B19 /* ARObject.m */,
+				5B625B995ED3C83C967CD8744C8FDCB9 /* ARRadar.h */,
+				BD310E8F3C08A84EC8E99CFF45358179 /* ARRadar.m */,
+				97C84395C61D224F1E5FCCEBD7964B5C /* ARSettings.h */,
+				A47AF58C9CAB8BDB2350B49527EEA428 /* LocationMath.h */,
+				261629B3AFAF7BACCA6B2815612DADA1 /* LocationMath.m */,
+				F20D57EC060AB3939C90B7475D0B01F9 /* PRARManager.h */,
+				57A19A9CFFA2793B93593791C59D2672 /* PRARManager.m */,
+				DF8637F5D5975A8E470566C9B69B305A /* Resources */,
+				C29D4B7C7134B59BEAB5F7CB31C4AA21 /* Support Files */,
+			);
+			name = PRAugmentedReality;
+			path = PRAugmentedReality;
+>>>>>>> origin/master
 			sourceTree = "<group>";
 		};
 		2D449A01849396F61EAFE5F6CE5C9F0F /* Targets Support Files */ = {
@@ -638,6 +1048,15 @@
 				39C7C3695C458536972F0F9FC910361D /* Pods-LocationFinderTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3418DF6D114D5A277618A23DD36EF848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B134D4021006819DBDD94E97574D723 /* GoogleMaps.framework */,
+				D46399199D157C6CC1217C6085A27037 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		39C7C3695C458536972F0F9FC910361D /* Pods-LocationFinderTests */ = {
@@ -655,6 +1074,7 @@
 			path = "Target Support Files/Pods-LocationFinderTests";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		4D8BE3D7E26A1703DFD855339352CD92 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -702,10 +1122,79 @@
 			children = (
 				DB8B869B232E7EEF268F1BA18C604413 /* AFNetworkReachabilityManager.h */,
 				1B788D39250C713410D8B8E16253B94D /* AFNetworkReachabilityManager.m */,
+=======
+		46740E35C547A0BEC379707D7E29AC7C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA60D5711F6BA33C1FE875EA7AB165BE /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		52C7BED9B751D6878002FB15DA5C7394 /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				9FFE2FEC8324940A936CCB829A8614F7 /* TPKeyboardAvoidingCollectionView.h */,
+				CE05C3466C6754B841F01DFE5192C903 /* TPKeyboardAvoidingCollectionView.m */,
+				7FB52FC809F151C1D684891937DC47C8 /* TPKeyboardAvoidingScrollView.h */,
+				FE105F1DB08353C377F3C3ACB387449A /* TPKeyboardAvoidingScrollView.m */,
+				3C04B54E14ED6BF186F5C7EBB06EDD10 /* TPKeyboardAvoidingTableView.h */,
+				6A37D222318B56E32C641D6B379BE6D0 /* TPKeyboardAvoidingTableView.m */,
+				AD59C3F358D31C619D96F6C9713381FE /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				55F55B4B400771377EA5253405EAB3E9 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				CE6D8BCA242205F7A1C3F56F80EE217D /* Support Files */,
+			);
+			name = TPKeyboardAvoiding;
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		53D6D79ECF2D24EE54673C708E5396B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				656AC69BC82F94C5DCA17DAAF57924D3 /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CE6A6E52B3DB1909649D2209508C0B8 /* AXWireButton */ = {
+			isa = PBXGroup;
+			children = (
+				EC2CB41A5F182D263BB795284DF92D97 /* AXWireButton.h */,
+				1C998B17CD61FA8C26D78254DB2411F4 /* AXWireButton.m */,
+				A81A0A431807C837C8538EF6852B57C9 /* Support Files */,
+			);
+			name = AXWireButton;
+			path = AXWireButton;
+			sourceTree = "<group>";
+		};
+		63E5BF519564A9A30F7F2C3BC1F775AD /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				B2B8F3E65FC3BA150D4D3AF554554FCE /* AFSecurityPolicy.h */,
+				C25EEEA30F4667AC44F04FC3281E1371 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		65E41D7DD36CB7A9048940987015C0F9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4D5AA521957AE32A0C84234D61F41DD /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6CDBE2F829F47DF9AD76A25AF47AD578 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				477C3C917DF9AA6BE77805F37FBB4C66 /* AFNetworkReachabilityManager.h */,
+				D74F1C4FCA86A5CD1FA4FACB7BD4B040 /* AFNetworkReachabilityManager.m */,
+>>>>>>> origin/master
 			);
 			name = Reachability;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		64136E392941FC8F60C5DB9E1924F5BF /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
@@ -757,9 +1246,29 @@
 				F24763817CFFEECCC4AEF1717B16B2EF /* Serialization */,
 				6A9B9A919D95381A286D0BC64AE90221 /* Support Files */,
 				1D7F1D6A8E08D160DFE370652A725E6F /* UIKit */,
+=======
+		6F2AF317439F62FD5B458B2DAF5A1DF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30510724CE760A4C07750E107D34F68A /* GooglePlacePicker.framework */,
+>>>>>>> origin/master
 			);
-			name = AFNetworking;
-			path = AFNetworking;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71FBDFF9460A2182A62EC956416C71E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E0ADBFDB10BBD6C105E85755B7B2396 /* AFNetworking */,
+				5CE6A6E52B3DB1909649D2209508C0B8 /* AXWireButton */,
+				165B6335F28365EE40D1D50698B1EC79 /* FTGooglePlacesAPI */,
+				FAFD6E0253B3EF85E3FC063DC55B277A /* GoogleMaps */,
+				E45DD38305596EB41E591788A06DCB63 /* GooglePlacePicker */,
+				C894BB84CC1A19C47ED92003FEA93EC4 /* GooglePlaces */,
+				2AABE283E90864335C546D56DC5DB5EA /* PRAugmentedReality */,
+				52C7BED9B751D6878002FB15DA5C7394 /* TPKeyboardAvoiding */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		6CFEE54C56D62F532BFAD69296321BB9 /* NSData+zlib */ = {
@@ -807,12 +1316,18 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */,
+<<<<<<< HEAD
 				DEED62B0E1D00A773BB3CCDE875041EF /* Pods */,
 				8108E9AE0144FE24D4580DEBFD714E3C /* Products */,
+=======
+				71FBDFF9460A2182A62EC956416C71E1 /* Pods */,
+				8D38D05636349000CDE7825EBFA676CA /* Products */,
+>>>>>>> origin/master
 				2D449A01849396F61EAFE5F6CE5C9F0F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		8108E9AE0144FE24D4580DEBFD714E3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -881,6 +1396,88 @@
 				E64187FE4735C5E84838E3AB09CC4308 /* GooglePlaces.framework */,
 			);
 			name = Frameworks;
+=======
+		80927F718891D6F77CA4F6BB507EE06D /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				62AE3C968B02A67661BCD96A111C7899 /* AFNetworkActivityIndicatorManager.h */,
+				8902033947D6F2F7B59082C36DDAB694 /* AFNetworkActivityIndicatorManager.m */,
+				A9E45479B26B319C9DCB86B63F6BF076 /* UIActivityIndicatorView+AFNetworking.h */,
+				2C8C59CFE8E5280CD64DAEBC1C7CCD65 /* UIActivityIndicatorView+AFNetworking.m */,
+				EC756B5A79DF2D2F5335BD662EF1C7BF /* UIAlertView+AFNetworking.h */,
+				FD86FED9B80EA9674F79B5CFFA7123E6 /* UIAlertView+AFNetworking.m */,
+				0A9023E22906D758601627645E1A00DB /* UIButton+AFNetworking.h */,
+				E19252CFF70F065CB521C86E51AE18C5 /* UIButton+AFNetworking.m */,
+				3330B9737DA95C4A90D15810EF639E24 /* UIImageView+AFNetworking.h */,
+				185B7CB4C4F74A1B7DDA82008C24250B /* UIImageView+AFNetworking.m */,
+				3742E5B355E418C866AB989B09A34B83 /* UIKit+AFNetworking.h */,
+				066F58921EC34100923E541CFB45E0E1 /* UIProgressView+AFNetworking.h */,
+				523BD8918FF72CA2A7D09CDB52F60B30 /* UIProgressView+AFNetworking.m */,
+				0AB60EF23467E2AB0A48C3DD82380A96 /* UIRefreshControl+AFNetworking.h */,
+				A397F40CBB78081CE84730AB2005A579 /* UIRefreshControl+AFNetworking.m */,
+				B018442B8CB0F1E528015DAD9DBA12E8 /* UIWebView+AFNetworking.h */,
+				17D325C6C124C7F38F9F49CC48D580BC /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		825BBFEB888AA66B8DB292DA5208CB1F /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				43386C8CC7C15B6E999C457F63180A70 /* AFURLRequestSerialization.h */,
+				55EF39DB411BABFF2FFCC868AC36E89D /* AFURLRequestSerialization.m */,
+				92B6041E700B280D4EC2805CF2D87029 /* AFURLResponseSerialization.h */,
+				26A8A1F92333120CAAFF212F2A1A8C6F /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		876F80F8AFD1240ED0B7B9EA9C5BFAD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C5C4CE7B57F3F5135276ED1B3480A48 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		877BEFDA1487492F75BE53377818AACB /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				3418DF6D114D5A277618A23DD36EF848 /* Frameworks */,
+				46740E35C547A0BEC379707D7E29AC7C /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		8D38D05636349000CDE7825EBFA676CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E99474D021E9DF11598011FF10415BC /* libAFNetworking.a */,
+				95D87988C539F0EA7BF38EA70A01845E /* libAXWireButton.a */,
+				3A1F9666E70273EBBA381C6D1051212D /* libFTGooglePlacesAPI.a */,
+				F5928BF2A18C1294F0937A0A526430E2 /* libPods-LocationFinder.a */,
+				9A1DDE32D751DF83F92F09703E8526C7 /* libPods-LocationFinderTests.a */,
+				74E83B9A292FA4E1C8850C8C751AFD4A /* libPRAugmentedReality.a */,
+				31795FEDCBAAB6B63DE50D79A1B1D240 /* libTPKeyboardAvoiding.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E0ADBFDB10BBD6C105E85755B7B2396 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				69D23D4E3C237F15A64903D5314E26FD /* AFNetworking.h */,
+				115B8863EAF7755F366001014FE4CA5A /* NSURLConnection */,
+				F5A635B20CB2A94D529D16AAD1230CD7 /* NSURLSession */,
+				6CDBE2F829F47DF9AD76A25AF47AD578 /* Reachability */,
+				63E5BF519564A9A30F7F2C3BC1F775AD /* Security */,
+				825BBFEB888AA66B8DB292DA5208CB1F /* Serialization */,
+				A7271F3802FDCA595426BCDC88DE09B9 /* Support Files */,
+				80927F718891D6F77CA4F6BB507EE06D /* UIKit */,
+			);
+			name = AFNetworking;
+			path = AFNetworking;
+>>>>>>> origin/master
 			sourceTree = "<group>";
 		};
 		95AF39F02CAF3EF60339CDBD1732F10C /* Pods-LocationFinder */ = {
@@ -898,6 +1495,7 @@
 			path = "Target Support Files/Pods-LocationFinder";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		95EB384B4676A61768D41F05E7B866A0 /* Defines */ = {
 			isa = PBXGroup;
 			children = (
@@ -931,10 +1529,31 @@
 			children = (
 				3E0C61298767C6F8AA37A2340B914DC9 /* AFSecurityPolicy.h */,
 				C83ED4A53B5CC9F9760FF666D2C0966A /* AFSecurityPolicy.m */,
+=======
+		99D7ABF0622F86FDA28F282273F1F92D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83E88EAA2A5E2EA9FF63E6D8A1B8E398 /* FTGooglePlacesAPI.xcconfig */,
+				A0D10BF978CE96D69A853AB5CAA84DF5 /* FTGooglePlacesAPI-dummy.m */,
+				F084DE837D4E274910AFDBE97B091DC5 /* FTGooglePlacesAPI-prefix.pch */,
 			);
-			name = Security;
+			name = "Support Files";
+			path = "../Target Support Files/FTGooglePlacesAPI";
 			sourceTree = "<group>";
 		};
+		A7271F3802FDCA595426BCDC88DE09B9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				640950710FAB8DF45554986182856AA6 /* AFNetworking.xcconfig */,
+				2C7694CF0313A2F03F5517BFD3A5BB8D /* AFNetworking-dummy.m */,
+				F910935F148724BFF41F6C3606DBED30 /* AFNetworking-prefix.pch */,
+>>>>>>> origin/master
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AFNetworking";
+			sourceTree = "<group>";
+		};
+<<<<<<< HEAD
 		C58703CAC41637915F2C01B5D77A7405 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -966,6 +1585,153 @@
 				22ACBEC0C4847D19D5BC05BDBED4C885 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
 				AA8F71FD0333DD341E0B2A7D1E49EA9D /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
 				2B8686182D940E47F61230A5D13A1A32 /* Support Files */,
+=======
+		A81A0A431807C837C8538EF6852B57C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFAE5CC15B397BFDA899AE2636BF5C35 /* AXWireButton.xcconfig */,
+				C5CA81BA1B80E984D8509C94DA19BA28 /* AXWireButton-dummy.m */,
+				778B6755B84F969087C07BF83C02B86B /* AXWireButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AXWireButton";
+			sourceTree = "<group>";
+		};
+		C29D4B7C7134B59BEAB5F7CB31C4AA21 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BACBC7168DAF89FCF8A5ECBF7A7B084 /* PRAugmentedReality.xcconfig */,
+				2E8F07DFFC3CDF4C1E2FC9F3CB3734B4 /* PRAugmentedReality-dummy.m */,
+				8A65C785992831B5B21732A97B5F150B /* PRAugmentedReality-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PRAugmentedReality";
+			sourceTree = "<group>";
+		};
+		C894BB84CC1A19C47ED92003FEA93EC4 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				53D6D79ECF2D24EE54673C708E5396B1 /* Frameworks */,
+				65E41D7DD36CB7A9048940987015C0F9 /* Resources */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		C90E194262BEDA714B045AD31ABA5C98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				522953B18E6E9D8BB10C4BE4BFC31479 /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE6D8BCA242205F7A1C3F56F80EE217D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				45F45B28BB28C0471AD0F8CE82DCCFAB /* TPKeyboardAvoiding.xcconfig */,
+				DC0FB2940B519EB455F8B52332C226C2 /* TPKeyboardAvoiding-dummy.m */,
+				E1D2C369D0CB8A59A36860F6F0E22BA4 /* TPKeyboardAvoiding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		DF8637F5D5975A8E470566C9B69B305A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				417D803F2524ED2F9EDF438748341A51 /* ar_icon.png */,
+				2BD8F5384E89EA14791A245A7BB56919 /* ar_overlay.png */,
+				FD38FD3D88132A5BD1869C79E648A1B9 /* ar_overlay@2x.png */,
+				0A9F30C35405C4CE5FB7C8339D1C02F6 /* ARObject.xib */,
+				1D0F7DFC7077B617C875AE1F303AA044 /* Radar.png */,
+				CEFF5C20457CEB8C9772A666261E6F8D /* RadarMV.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E45DD38305596EB41E591788A06DCB63 /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				6F2AF317439F62FD5B458B2DAF5A1DF1 /* Frameworks */,
+				C90E194262BEDA714B045AD31ABA5C98 /* Resources */,
+			);
+			name = GooglePlacePicker;
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		F5A635B20CB2A94D529D16AAD1230CD7 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				8B8691540C27D20F68CA8DC2BCF942A1 /* AFHTTPSessionManager.h */,
+				91659D4F2E4A7A53C4A8F744E6B9ED90 /* AFHTTPSessionManager.m */,
+				64B3804AE447EA171FED9A0016EF18B7 /* AFURLSessionManager.h */,
+				3192A7B76062E5B440A50093593DBD50 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		FAFD6E0253B3EF85E3FC063DC55B277A /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				0699A2593231424622F1D87E64668B2F /* Base */,
+				877BEFDA1487492F75BE53377818AACB /* Maps */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4FA16479D5F3C7B46C895D937B497945 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B52DEA6EE651A1E72B98DF296ED09A6 /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				47E87935803F9DDDCE3E2D52B739DA33 /* TPKeyboardAvoidingScrollView.h in Headers */,
+				81A5E1236040385446B455087389D936 /* TPKeyboardAvoidingTableView.h in Headers */,
+				34AF1647A756B67491BC3C69E36190B8 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B198E772C86B3691FC08BAFD9FFE43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BB8092C755AC4242CECD69627928D6 /* ARController.h in Headers */,
+				F14A2CF966F98F5E80C0194CAF3219AD /* ARObject.h in Headers */,
+				194B9D6AFDD8902957CA58C7DF992DD5 /* ARRadar.h in Headers */,
+				E2223A0A72F81300E2CE9BE39764C8FF /* ARSettings.h in Headers */,
+				33F62C6BB234C72A56BE412B715A365E /* LocationMath.h in Headers */,
+				2351D04D4D4C297607C80E754EB9EBF2 /* PRARManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C4CBFE172D547A7F1B13729C618711 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703E9B63C6F95FF4E540582694416AC4 /* AFHTTPRequestOperation.h in Headers */,
+				7C784C11A07442600BAB93AF8705CA4B /* AFHTTPRequestOperationManager.h in Headers */,
+				43BB300A2A1032D80182AB46397BF913 /* AFHTTPSessionManager.h in Headers */,
+				CF9555AA6F9EF0F2879F75A0965C72F6 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				B540E876246FD909EFFCEA961F82328C /* AFNetworking.h in Headers */,
+				855C20D4EEA8F047E2CC38ED5235D982 /* AFNetworkReachabilityManager.h in Headers */,
+				C9A5E72B88F6C598BEF99EF7309A862B /* AFSecurityPolicy.h in Headers */,
+				D33D2587D2E6EA01640AFF29B73C757A /* AFURLConnectionOperation.h in Headers */,
+				1AFA50D55684463D02F8E9054B7002A3 /* AFURLRequestSerialization.h in Headers */,
+				1450DB4E6385F2206E2A0B8CE4ECF841 /* AFURLResponseSerialization.h in Headers */,
+				32E35BA80B04016D6245A608A10F89F9 /* AFURLSessionManager.h in Headers */,
+				F90421708CDF41D1A389C1692A745BDA /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				58E8964CBDF1723615E669E41A4CE48D /* UIAlertView+AFNetworking.h in Headers */,
+				116D875F05695C6E1F08619BE09A2804 /* UIButton+AFNetworking.h in Headers */,
+				954F7C0E10F8C2CE56E2C1055F9B0464 /* UIImageView+AFNetworking.h in Headers */,
+				878511E19773551A47CDD5B266CDF278 /* UIKit+AFNetworking.h in Headers */,
+				445F5ECA13DCF76C689BE4C0AE17C04A /* UIProgressView+AFNetworking.h in Headers */,
+				E190879397FF5CCFED353FDB69D4775D /* UIRefreshControl+AFNetworking.h in Headers */,
+				5D4286321A134D3793B9E1556B7C77A9 /* UIWebView+AFNetworking.h in Headers */,
+>>>>>>> origin/master
 			);
 			name = TPKeyboardAvoiding;
 			path = TPKeyboardAvoiding;
@@ -1229,6 +1995,7 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		1ADE7B2751C018FC140EE1552AE04223 /* PRAugmentedReality */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EBB9EDC941A54CFBBD9EFEF5D139F7DD /* Build configuration list for PBXNativeTarget "PRAugmentedReality" */;
@@ -1236,6 +2003,15 @@
 				A6B72B2780C2767BA248F0F868E563A3 /* Sources */,
 				B2F384E8534AB2B6DB200ADEC832C219 /* Frameworks */,
 				081400A12491EC9246504F5833AF4834 /* Headers */,
+=======
+		2C09634434487C01013F0A2417C03DD9 /* PRAugmentedReality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556D97E4A50C1455FF0C546D69AE5596 /* Build configuration list for PBXNativeTarget "PRAugmentedReality" */;
+			buildPhases = (
+				CF15C0F7296B2FDFBCC7C85D4ECA8508 /* Sources */,
+				E58D75E3851BDA6E6F1E60ED363ED24C /* Frameworks */,
+				A0B198E772C86B3691FC08BAFD9FFE43 /* Headers */,
+>>>>>>> origin/master
 			);
 			buildRules = (
 			);
@@ -1243,7 +2019,11 @@
 			);
 			name = PRAugmentedReality;
 			productName = PRAugmentedReality;
+<<<<<<< HEAD
 			productReference = 1C16B2BAD22E5000080A9ED653B11B5E /* libPRAugmentedReality.a */;
+=======
+			productReference = 74E83B9A292FA4E1C8850C8C751AFD4A /* libPRAugmentedReality.a */;
+>>>>>>> origin/master
 			productType = "com.apple.product-type.library.static";
 		};
 		44F51B213840F89945E525D3370BB0EE /* Pods-LocationFinderTests */ = {
@@ -1259,7 +2039,11 @@
 			);
 			name = "Pods-LocationFinderTests";
 			productName = "Pods-LocationFinderTests";
+<<<<<<< HEAD
 			productReference = 71F46A7C05E67FAEE012102DAAB85068 /* libPods-LocationFinderTests.a */;
+=======
+			productReference = 9A1DDE32D751DF83F92F09703E8526C7 /* libPods-LocationFinderTests.a */;
+>>>>>>> origin/master
 			productType = "com.apple.product-type.library.static";
 		};
 		5117AB33219594B4492F01E060D31462 /* AXWireButton */ = {
@@ -1276,6 +2060,7 @@
 			);
 			name = AXWireButton;
 			productName = AXWireButton;
+<<<<<<< HEAD
 			productReference = 79385E5EC870995D161E2D253C02B232 /* libAXWireButton.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -1311,6 +2096,9 @@
 			name = TPKeyboardAvoiding;
 			productName = TPKeyboardAvoiding;
 			productReference = 29B74A5B07C2AAF8A5B751A187B7504A /* libTPKeyboardAvoiding.a */;
+=======
+			productReference = 95D87988C539F0EA7BF38EA70A01845E /* libAXWireButton.a */;
+>>>>>>> origin/master
 			productType = "com.apple.product-type.library.static";
 		};
 		70CBCCA47D4B181EEE8013696F43FFAF /* FTGooglePlacesAPI */ = {
@@ -1328,6 +2116,7 @@
 			);
 			name = FTGooglePlacesAPI;
 			productName = FTGooglePlacesAPI;
+<<<<<<< HEAD
 			productReference = 35C18A5DAA344C20A108EB87E0332968 /* libFTGooglePlacesAPI.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -1337,10 +2126,23 @@
 			buildPhases = (
 				9339AB603B1AF94417BDA0529A44DDB9 /* Sources */,
 				C0E158129DAFE6A0B6AD01FE2EE67381 /* Frameworks */,
+=======
+			productReference = 3A1F9666E70273EBBA381C6D1051212D /* libFTGooglePlacesAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C67674AB644F11703810CFAAAF0E0A4C /* TPKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41339DD0CA83F5E05728DE1799FCC31F /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
+			buildPhases = (
+				D6C459DF1CD9579860E9C57E027AB247 /* Sources */,
+				9E63D6E3A64A7F6271DA247AEF4BAC58 /* Frameworks */,
+				4FA16479D5F3C7B46C895D937B497945 /* Headers */,
+>>>>>>> origin/master
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 				BD2FDBE83E4090E804C2BFD80657AE8A /* PBXTargetDependency */,
 				A6E8CE755127B1D78C1CA0E8C65D1589 /* PBXTargetDependency */,
 				7086D3B0E706F550ECE55640B2EEC9DD /* PBXTargetDependency */,
@@ -1352,6 +2154,12 @@
 			name = "Pods-LocationFinder";
 			productName = "Pods-LocationFinder";
 			productReference = ECC7DA851605A4F1190E3E0038DDA06E /* libPods-LocationFinder.a */;
+=======
+			);
+			name = TPKeyboardAvoiding;
+			productName = TPKeyboardAvoiding;
+			productReference = 31795FEDCBAAB6B63DE50D79A1B1D240 /* libTPKeyboardAvoiding.a */;
+>>>>>>> origin/master
 			productType = "com.apple.product-type.library.static";
 		};
 		C95C45974D77E3E41FE9D2A80E093179 /* AFNetworking */ = {
@@ -1368,6 +2176,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
+<<<<<<< HEAD
 			productReference = 632D3DE2511CE150543A5315A948E020 /* libAFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -1378,14 +2187,37 @@
 				34191111C8E6A7E0C8B7499BA636A66A /* Sources */,
 				8D2BE8CE5663DF1EA1CF1CC5269C6067 /* Frameworks */,
 				A922FE66E6DEA4BD3090DCEB4580F34E /* Headers */,
+=======
+			productReference = 0E99474D021E9DF11598011FF10415BC /* libAFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD4676A7967C9AF876B580443CBC90CF /* Pods-LocationFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F92673CAD89F49160C9038097C0AF40 /* Build configuration list for PBXNativeTarget "Pods-LocationFinder" */;
+			buildPhases = (
+				F0CE0FC06C7232654FFDA3848AF95DC0 /* Sources */,
+				D4E97863CEF987319AE3F207FD036801 /* Frameworks */,
+>>>>>>> origin/master
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< HEAD
 			);
 			name = GTMSessionFetcher;
 			productName = GTMSessionFetcher;
 			productReference = D34219DE8704E117933C32E339EC137E /* libGTMSessionFetcher.a */;
+=======
+				70C556A1E38108FD4129933613539BCC /* PBXTargetDependency */,
+				BC594BB28B0E3973E58F96B83B3DD6AE /* PBXTargetDependency */,
+				0699907D489D197BDAAAAF40C4FB33CB /* PBXTargetDependency */,
+				666C7E54FD786C1B9B98E924B863A27E /* PBXTargetDependency */,
+				7159F8F0855B18A5D853487DCE2CDC33 /* PBXTargetDependency */,
+			);
+			name = "Pods-LocationFinder";
+			productName = "Pods-LocationFinder";
+			productReference = F5928BF2A18C1294F0937A0A526430E2 /* libPods-LocationFinder.a */;
+>>>>>>> origin/master
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -1405,19 +2237,30 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+<<<<<<< HEAD
 			productRefGroup = 8108E9AE0144FE24D4580DEBFD714E3C /* Products */;
+=======
+			productRefGroup = 8D38D05636349000CDE7825EBFA676CA /* Products */;
+>>>>>>> origin/master
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C95C45974D77E3E41FE9D2A80E093179 /* AFNetworking */,
 				5117AB33219594B4492F01E060D31462 /* AXWireButton */,
 				70CBCCA47D4B181EEE8013696F43FFAF /* FTGooglePlacesAPI */,
+<<<<<<< HEAD
 				58E7450DB13C5ECCE92D3C0DF7CF0903 /* GoogleToolboxForMac */,
 				DE868725B18AE240E550C5515AE66BC4 /* GTMSessionFetcher */,
 				9D875882B4FF610811C301D1CCDCA039 /* Pods-LocationFinder */,
 				44F51B213840F89945E525D3370BB0EE /* Pods-LocationFinderTests */,
 				1ADE7B2751C018FC140EE1552AE04223 /* PRAugmentedReality */,
 				5EF6503F4B53B5FCECD007E4D257C7C4 /* TPKeyboardAvoiding */,
+=======
+				DD4676A7967C9AF876B580443CBC90CF /* Pods-LocationFinder */,
+				44F51B213840F89945E525D3370BB0EE /* Pods-LocationFinderTests */,
+				2C09634434487C01013F0A2417C03DD9 /* PRAugmentedReality */,
+				C67674AB644F11703810CFAAAF0E0A4C /* TPKeyboardAvoiding */,
+>>>>>>> origin/master
 			);
 		};
 /* End PBXProject section */
@@ -1443,6 +2286,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		9339AB603B1AF94417BDA0529A44DDB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1482,6 +2326,14 @@
 				28C4F22C432B8F5C2668D16395711120 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				C0CD1017B4792DE42BD17DE8B9F3A8E8 /* TPKeyboardAvoidingTableView.m in Sources */,
 				0A8BFFD2386C57FA0ED9C16AA09CDC86 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+=======
+		A877B6146442167BFF0088DCDFCA016D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2350B7B435FE931471DBF15A0D518C /* AXWireButton-dummy.m in Sources */,
+				61D591918D931D96391958CA66E4C7E3 /* AXWireButton.m in Sources */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1500,6 +2352,31 @@
 				05F5D824A78EF579DF124EDCC775C703 /* FTGooglePlacesAPISearchResultItem.m in Sources */,
 				4B81A83C5F57BCB8FF98902D3A2B8713 /* FTGooglePlacesAPIService.m in Sources */,
 				6B7B58A16DAE36E7C689005091630426 /* FTGooglePlacesAPITextSearchRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF15C0F7296B2FDFBCC7C85D4ECA8508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6B62C78A7F3B7261E7794FCE9F8334 /* ARController.m in Sources */,
+				0477991A2A339433658C1B695409D82F /* ARObject.m in Sources */,
+				2DDA1CBD3114A029974008D344605A4B /* ARRadar.m in Sources */,
+				CA7C9456004D66BAD152C127D926C4D5 /* LocationMath.m in Sources */,
+				D08AB270CA9BAE048D1F6E0B2B9695A0 /* PRARManager.m in Sources */,
+				9CD62C937E26C24C47B35BE44DA3E42C /* PRAugmentedReality-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C459DF1CD9579860E9C57E027AB247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C64508020EA9C78CBDB8045EA2DED18 /* TPKeyboardAvoiding-dummy.m in Sources */,
+				11B502FFCB4FFF7F3476F6A9674D0F8D /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				82BCC2FEABAB22CC37ED265694B42DAE /* TPKeyboardAvoidingScrollView.m in Sources */,
+				1171EB4964916C83EC10154CF20C5DCA /* TPKeyboardAvoidingTableView.m in Sources */,
+				7D5DBD8C78AD94D0B103129951BF6F34 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1528,6 +2405,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+<<<<<<< HEAD
 		F86A0216D6948A1D34655DBC29C561FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1536,12 +2414,20 @@
 				EF7722D72FCA3A27E05EC9D4A716D5FD /* GTMNSData+zlib.m in Sources */,
 				9EC3208101C0A4CE8E374B61F787355B /* GTMNSDictionary+URLArguments.m in Sources */,
 				49524DD7C80C2A517F6A1352B67A44E8 /* GTMNSString+URLArguments.m in Sources */,
+=======
+		F0CE0FC06C7232654FFDA3848AF95DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CC2C6ECA7D28546C727095A060FDD3 /* Pods-LocationFinder-dummy.m in Sources */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< HEAD
 		0DDC43688452D413967CE38C37A76BAD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PRAugmentedReality;
@@ -1571,6 +2457,31 @@
 			name = FTGooglePlacesAPI;
 			target = 70CBCCA47D4B181EEE8013696F43FFAF /* FTGooglePlacesAPI */;
 			targetProxy = 6EF9372C31C837EDB8A9C1A0766EE885 /* PBXContainerItemProxy */;
+=======
+		0699907D489D197BDAAAAF40C4FB33CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTGooglePlacesAPI;
+			target = 70CBCCA47D4B181EEE8013696F43FFAF /* FTGooglePlacesAPI */;
+			targetProxy = 92DF11147261C08539F1938EA63A9C76 /* PBXContainerItemProxy */;
+		};
+		666C7E54FD786C1B9B98E924B863A27E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PRAugmentedReality;
+			target = 2C09634434487C01013F0A2417C03DD9 /* PRAugmentedReality */;
+			targetProxy = B6AD93B1320711BE197A268702EF76BC /* PBXContainerItemProxy */;
+		};
+		70C556A1E38108FD4129933613539BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = C95C45974D77E3E41FE9D2A80E093179 /* AFNetworking */;
+			targetProxy = 3CED4592B39181A37E6E0F886F67C46D /* PBXContainerItemProxy */;
+		};
+		7159F8F0855B18A5D853487DCE2CDC33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = C67674AB644F11703810CFAAAF0E0A4C /* TPKeyboardAvoiding */;
+			targetProxy = C77D3C4FCE45F220B650362CC310D476 /* PBXContainerItemProxy */;
+>>>>>>> origin/master
 		};
 		7199920DBDE3744980009E3F554FDC22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1578,6 +2489,7 @@
 			target = C95C45974D77E3E41FE9D2A80E093179 /* AFNetworking */;
 			targetProxy = A25E4236CC96C8D2C3BEA064E0D37539 /* PBXContainerItemProxy */;
 		};
+<<<<<<< HEAD
 		A6E8CE755127B1D78C1CA0E8C65D1589 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AXWireButton;
@@ -1589,13 +2501,200 @@
 			name = AFNetworking;
 			target = C95C45974D77E3E41FE9D2A80E093179 /* AFNetworking */;
 			targetProxy = CA3E6EC1CE14601994FF94AB1A604F2A /* PBXContainerItemProxy */;
+=======
+		BC594BB28B0E3973E58F96B83B3DD6AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AXWireButton;
+			target = 5117AB33219594B4492F01E060D31462 /* AXWireButton */;
+			targetProxy = FDA9B853A16E948CFD13A5F347B1CCE2 /* PBXContainerItemProxy */;
+>>>>>>> origin/master
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+<<<<<<< HEAD
+=======
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		169FAAE934AAF39BB893F125883F6945 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B534A20948DF16A6024F437CCE1E0F20 /* Pods-LocationFinder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4026ABFFFA4002AE2567C5B421C050EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 640950710FAB8DF45554986182856AA6 /* AFNetworking.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5748ED80EEB30D6DA6013CA9E207577E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BACBC7168DAF89FCF8A5ECBF7A7B084 /* PRAugmentedReality.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PRAugmentedReality/PRAugmentedReality-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5AF4744235A5F84B013EF77AB89B2C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAE5CC15B397BFDA899AE2636BF5C35 /* AXWireButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AXWireButton/AXWireButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5FC8A93F9D980E7834F55F27EE7FD91E /* Debug */ = {
+>>>>>>> origin/master
+			isa = XCBuildConfiguration;
+			buildSettings = {
+<<<<<<< HEAD
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1750,6 +2849,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A02A8B470E020606CDA04D818FB1C280 /* Pods-LocationFinderTests.debug.xcconfig */;
 			buildSettings = {
+=======
+>>>>>>> origin/master
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1792,6 +2893,7 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		630D4C01C2B8B34349BC7AC3CDFEA12A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F39A192E1F8BADA8EAFF3AD3FF82358B /* TPKeyboardAvoiding.xcconfig */;
@@ -1908,8 +3010,11 @@
 			name = Debug;
 		};
 		85A9E1A09ADDBD8DDB8D304C9080B89F /* Release */ = {
+=======
+		91800C771F061A2A190E0F4522FAB77C /* Release */ = {
+>>>>>>> origin/master
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21C03DEA2F78BDA009B9D02F0DD44BA1 /* Pods-LocationFinder.release.xcconfig */;
+			baseConfigurationReference = 6BACBC7168DAF89FCF8A5ECBF7A7B084 /* PRAugmentedReality.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1917,22 +3022,54 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACH_O_TYPE = staticlib;
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/PRAugmentedReality/PRAugmentedReality-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+>>>>>>> origin/master
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
+		BD19BE31EFDEC0E3A79A4A7DBCFEC673 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F45B28BB28C0471AD0F8CE82DCCFAB /* TPKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		BE8911553301D3CAFA6F453F2CC7E1FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 56557D70598C068E6464D5EA190F87AE /* FTGooglePlacesAPI.xcconfig */;
+=======
+			baseConfigurationReference = 83E88EAA2A5E2EA9FF63E6D8A1B8E398 /* FTGooglePlacesAPI.xcconfig */;
+>>>>>>> origin/master
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1955,7 +3092,11 @@
 		};
 		BEF744FA02305D3F1ECED15F85E525C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = BB6A96D627830AAA0BDC5A9944A944E3 /* AFNetworking.xcconfig */;
+=======
+			baseConfigurationReference = 640950710FAB8DF45554986182856AA6 /* AFNetworking.xcconfig */;
+>>>>>>> origin/master
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1976,9 +3117,15 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		E83AF93CF95DB40A10634098AC1E76B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEC6C265A0830A4FC4B83E5DADAF561C /* GoogleToolboxForMac.xcconfig */;
+=======
+		D5104EBF658446DFECBF56FAFA677B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45F45B28BB28C0471AD0F8CE82DCCFAB /* TPKeyboardAvoiding.xcconfig */;
+>>>>>>> origin/master
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1986,8 +3133,13 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+>>>>>>> origin/master
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -1996,6 +3148,7 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+<<<<<<< HEAD
 			};
 			name = Release;
 		};
@@ -2019,22 +3172,36 @@
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+=======
+>>>>>>> origin/master
 			};
-			name = Debug;
+			name = Release;
 		};
+<<<<<<< HEAD
 		F690B7DBEFDAD6E3765EE3174A83E1D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DFADFB1FD92C1B55ACF961EE024A3717 /* GTMSessionFetcher.xcconfig */;
+=======
+		F047755B691A0C40072FB3942EBEE81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C03DEA2F78BDA009B9D02F0DD44BA1 /* Pods-LocationFinder.release.xcconfig */;
+>>>>>>> origin/master
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "Target Support Files/GTMSessionFetcher/GTMSessionFetcher-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+>>>>>>> origin/master
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -2043,11 +3210,17 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
+<<<<<<< HEAD
 		FBD25D807822748D1A1567C2CA04F846 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DEC6C265A0830A4FC4B83E5DADAF561C /* GoogleToolboxForMac.xcconfig */;
+=======
+		F1886DE665DA5F2AFCCEE73F0D9F6D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAE5CC15B397BFDA899AE2636BF5C35 /* AXWireButton.xcconfig */;
+>>>>>>> origin/master
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2055,8 +3228,13 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+=======
+				GCC_PREFIX_HEADER = "Target Support Files/AXWireButton/AXWireButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+>>>>>>> origin/master
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -2070,7 +3248,11 @@
 		};
 		FC1EF83D8A0FC384B799C900E154914F /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 56557D70598C068E6464D5EA190F87AE /* FTGooglePlacesAPI.xcconfig */;
+=======
+			baseConfigurationReference = 83E88EAA2A5E2EA9FF63E6D8A1B8E398 /* FTGooglePlacesAPI.xcconfig */;
+>>>>>>> origin/master
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -2112,29 +3294,62 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		4693C211CA1C7318A8B388F1C2D24725 /* Build configuration list for PBXNativeTarget "GTMSessionFetcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F690B7DBEFDAD6E3765EE3174A83E1D7 /* Debug */,
 				740B89146851D8F38B5BFC51D55E54F8 /* Release */,
+=======
+		41339DD0CA83F5E05728DE1799FCC31F /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD19BE31EFDEC0E3A79A4A7DBCFEC673 /* Debug */,
+				D5104EBF658446DFECBF56FAFA677B33 /* Release */,
+>>>>>>> origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		6AF6E8D7D840162301C9EE626E2638B9 /* Build configuration list for PBXNativeTarget "AXWireButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F1886DE665DA5F2AFCCEE73F0D9F6D9A /* Debug */,
 				5AF4744235A5F84B013EF77AB89B2C9F /* Release */,
+=======
+		556D97E4A50C1455FF0C546D69AE5596 /* Build configuration list for PBXNativeTarget "PRAugmentedReality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5748ED80EEB30D6DA6013CA9E207577E /* Debug */,
+				91800C771F061A2A190E0F4522FAB77C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5F92673CAD89F49160C9038097C0AF40 /* Build configuration list for PBXNativeTarget "Pods-LocationFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FAAE934AAF39BB893F125883F6945 /* Debug */,
+				F047755B691A0C40072FB3942EBEE81E /* Release */,
+>>>>>>> origin/master
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+<<<<<<< HEAD
 		6EC1AB9270A50D8A44ADD11E66352D36 /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				630D4C01C2B8B34349BC7AC3CDFEA12A /* Debug */,
 				25251B07FBB9A9C29E8ED7804DA6AC16 /* Release */,
+=======
+		6AF6E8D7D840162301C9EE626E2638B9 /* Build configuration list for PBXNativeTarget "AXWireButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1886DE665DA5F2AFCCEE73F0D9F6D9A /* Debug */,
+				5AF4744235A5F84B013EF77AB89B2C9F /* Release */,
+>>>>>>> origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2144,6 +3359,7 @@
 			buildConfigurations = (
 				5FC8A93F9D980E7834F55F27EE7FD91E /* Debug */,
 				61AEC7F8C69573238E1892F6BB09447C /* Release */,
+<<<<<<< HEAD
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2153,6 +3369,8 @@
 			buildConfigurations = (
 				7EE03534AD7D30AD9FE2AEFD171DE66D /* Debug */,
 				85A9E1A09ADDBD8DDB8D304C9080B89F /* Release */,
+=======
+>>>>>>> origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2175,6 +3393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		EBB9EDC941A54CFBBD9EFEF5D139F7DD /* Build configuration list for PBXNativeTarget "PRAugmentedReality" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2184,6 +3403,8 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+=======
+>>>>>>> origin/master
 /* End XCConfigurationList section */
 	};
 	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;

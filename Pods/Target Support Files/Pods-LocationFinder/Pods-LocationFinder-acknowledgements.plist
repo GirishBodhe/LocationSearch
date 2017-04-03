@@ -107,6 +107,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>Copyright</string>
 			<key>Title</key>
+<<<<<<< HEAD
 			<string>Firebase</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
@@ -379,6 +380,8 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>Copyright</string>
 			<key>Title</key>
+=======
+>>>>>>> origin/master
 			<string>GoogleMaps</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
@@ -405,6 +408,7 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+<<<<<<< HEAD
 			<string>
                                  Apache License
                            Version 2.0, January 2004
@@ -617,6 +621,8 @@ THE SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+=======
+>>>>>>> origin/master
 			<string>Copyright (c) 2013 Promet Solutions Inc. (http://prometsource.com/)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

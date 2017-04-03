@@ -14,9 +14,12 @@ target 'LocationFinder' do
   pod 'PRAugmentedReality'
   pod 'AXWireButton'
   pod 'TPKeyboardAvoiding'
+<<<<<<< HEAD
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+=======
+>>>>>>> origin/master
   
   target 'LocationFinderTests' do
     inherit! :search_paths

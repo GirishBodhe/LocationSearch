@@ -14,7 +14,11 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
+<<<<<<< HEAD
                BlueprintIdentifier = '1ADE7B2751C018FC140EE1552AE04223'
+=======
+               BlueprintIdentifier = '2C09634434487C01013F0A2417C03DD9'
+>>>>>>> origin/master
                BlueprintName = 'PRAugmentedReality'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPRAugmentedReality.a'>

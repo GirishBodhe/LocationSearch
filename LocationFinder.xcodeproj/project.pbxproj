@@ -36,7 +36,10 @@
 		95B0C7F31E8F3159008BB00F /* SignInSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C7F21E8F3159008BB00F /* SignInSignUpViewController.m */; };
 		95B0C7F61E8F3169008BB00F /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C7F51E8F3169008BB00F /* SignInViewController.m */; };
 		95B0C7F91E8F317C008BB00F /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B0C7F81E8F317C008BB00F /* SignUpViewController.m */; };
+<<<<<<< HEAD
 		95B0C7FB1E8F9557008BB00F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95B0C7FA1E8F9557008BB00F /* GoogleService-Info.plist */; };
+=======
+>>>>>>> origin/master
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,7 +95,10 @@
 		95B0C7F51E8F3169008BB00F /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		95B0C7F71E8F317C008BB00F /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		95B0C7F81E8F317C008BB00F /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		95B0C7FA1E8F9557008BB00F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+=======
+>>>>>>> origin/master
 		BED66BABFB73253C6969F4DD /* Pods-LocationFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationFinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationFinderTests/Pods-LocationFinderTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,7 +206,10 @@
 		4CFC74CA192492C0002146AC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				95B0C7FA1E8F9557008BB00F /* GoogleService-Info.plist */,
+=======
+>>>>>>> origin/master
 				95B0C7DF1E8F0A10008BB00F /* SWRevealViewController.h */,
 				95B0C7E01E8F0A10008BB00F /* SWRevealViewController.m */,
 				4CFC74CB192492C0002146AC /* LocationFinder-Info.plist */,
@@ -320,7 +329,10 @@
 				4CFC74DA192492C0002146AC /* Main_iPad.storyboard in Resources */,
 				95B0C7EE1E8F196E008BB00F /* Launch Screen.storyboard in Resources */,
 				95B0C7EC1E8F1013008BB00F /* Home_2.jpg in Resources */,
+<<<<<<< HEAD
 				95B0C7FB1E8F9557008BB00F /* GoogleService-Info.plist in Resources */,
+=======
+>>>>>>> origin/master
 				4CFC74DF192492C0002146AC /* Images.xcassets in Resources */,
 				95B0C7E91E8F1013008BB00F /* Home_1.jpg in Resources */,
 				4CFC74D7192492C0002146AC /* Main_iPhone.storyboard in Resources */,

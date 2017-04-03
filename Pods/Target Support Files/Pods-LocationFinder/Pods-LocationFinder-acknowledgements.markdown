@@ -72,6 +72,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
+<<<<<<< HEAD
 ## Firebase
 
 Copyright 2017 Google
@@ -302,6 +303,8 @@ Copyright 2017 Google
    limitations under the License.
 
 
+=======
+>>>>>>> origin/master
 ## GoogleMaps
 
 Copyright 2017 Google
@@ -314,6 +317,7 @@ Copyright 2017 Google
 
 Copyright 2017 Google
 
+<<<<<<< HEAD
 ## GoogleToolboxForMac
 
 
@@ -520,6 +524,8 @@ Copyright 2017 Google
    limitations under the License.
 
 
+=======
+>>>>>>> origin/master
 ## PRAugmentedReality
 
 Copyright (c) 2013 Promet Solutions Inc. (http://prometsource.com/)
